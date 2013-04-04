@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/Testbench_isim_beh.exe" -prj "/home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/Testbench_beh.prj" "work.Testbench" "work.glbl" 

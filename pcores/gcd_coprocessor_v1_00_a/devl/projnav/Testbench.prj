@@ -1,0 +1,2 @@
+verilog work "../../hdl/verilog/gcd_coprocessor.v"
+verilog work "../../../../lab5B/src/hardware/sim/Testbench.v"

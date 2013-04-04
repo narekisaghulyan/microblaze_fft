@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="129" delta="new" ><arg fmt="%s" index="1">&quot;../../../../lab5B/src/hardware/sim/Testbench.v&quot; line 119 </arg>Too many parameters passed to system function &apos;<arg fmt="%s" index="2">$time</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="71" delta="new" ><arg fmt="%s" index="1">&quot;../../../../lab5B/src/hardware/sim/Testbench.v&quot; line 119 </arg>Illegal condition expression in if statement
+</msg>
+
+</messages>
+

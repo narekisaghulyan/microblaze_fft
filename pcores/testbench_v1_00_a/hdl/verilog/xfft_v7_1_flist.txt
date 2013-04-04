@@ -1,0 +1,13 @@
+# Output products list for <xfft_v7_1>
+xfft_v7_1/doc/xfft_ds260.pdf
+xfft_v7_1/doc/xfft_v7_1_readme.txt
+xfft_v7_1/doc/xfft_v7_1_vinfo.html
+xfft_v7_1.asy
+xfft_v7_1.gise
+xfft_v7_1.ngc
+xfft_v7_1.v
+xfft_v7_1.veo
+xfft_v7_1.xco
+xfft_v7_1.xise
+xfft_v7_1_flist.txt
+xfft_v7_1_xmdf.tcl

@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/Testbench_isim_beh.exe -prj /home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/Testbench_beh.prj work.Testbench work.glbl 
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/../../hdl/verilog/gcd_coprocessor.v" into library work
+Analyzing Verilog file "/home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/../../../../lab5B/src/hardware/sim/Testbench.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 93428 KB
+Fuse CPU Usage: 2150 ms
+Compiling module gcd_coprocessor
+Compiling module Testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable /home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/devl/projnav/Testbench_isim_beh.exe
+Fuse Memory Usage: 651632 KB
+Fuse CPU Usage: 2200 ms
+GCC CPU Usage: 900 ms

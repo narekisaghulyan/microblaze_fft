@@ -1,0 +1,514 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+Reading design: gcd_coprocessor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "gcd_coprocessor.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "gcd_coprocessor"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : gcd_coprocessor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../hdl/verilog/gcd_coprocessor.v" in library work
+Module <gcd_coprocessor> compiled
+No errors in compilation
+Analysis of file <"gcd_coprocessor.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <gcd_coprocessor> in library <work> with parameters.
+	Idle = "100"
+	NUMBER_OF_INPUT_WORDS = "00000000000000000000000000000010"
+	NUMBER_OF_OUTPUT_WORDS = "00000000000000000000000000000001"
+	Read_Inputs = "010"
+	Write_Outputs = "001"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <gcd_coprocessor>.
+	Idle = 3'b100
+	NUMBER_OF_INPUT_WORDS = 32'sb00000000000000000000000000000010
+	NUMBER_OF_OUTPUT_WORDS = 32'sb00000000000000000000000000000001
+	Read_Inputs = 3'b010
+	Write_Outputs = 3'b001
+Module <gcd_coprocessor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <gcd_coprocessor>.
+    Related source file is "../../hdl/verilog/gcd_coprocessor.v".
+WARNING:Xst:647 - Input <FSL_M_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Control> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <FSL_M_Control> is never assigned.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | FSL_Clk                   (rising_edge)        |
+    | Reset              | FSL_Rst                   (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 100                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit register for signal <nr_of_reads>.
+    Found 2-bit subtractor for signal <nr_of_reads$addsub0000> created at line 204.
+    Found 1-bit register for signal <nr_of_writes<0>>.
+    Found 32-bit register for signal <sum>.
+    Found 32-bit adder for signal <sum$addsub0000> created at line 197.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <gcd_coprocessor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 2-bit subtractor                                      : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+ 32-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 100   | 00
+ 010   | 01
+ 001   | 10
+-------------------
+WARNING:Xst:1710 - FF/Latch <nr_of_writes_0> (without init value) has a constant value of 0 in block <gcd_coprocessor>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 2-bit subtractor                                      : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <nr_of_writes_0> (without init value) has a constant value of 0 in block <gcd_coprocessor>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <gcd_coprocessor> ...
+WARNING:Xst:1710 - FF/Latch <nr_of_reads_0> (without init value) has a constant value of 0 in block <gcd_coprocessor>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block gcd_coprocessor, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : gcd_coprocessor.ngr
+Top Level Output File Name         : gcd_coprocessor
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 74
+
+Cell Usage :
+# BELS                             : 133
+#      GND                         : 1
+#      LUT2                        : 34
+#      LUT3                        : 1
+#      LUT4                        : 2
+#      LUT5                        : 32
+#      MUXCY                       : 31
+#      XORCY                       : 32
+# FlipFlops/Latches                : 35
+#      FDR                         : 35
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 69
+#      IBUF                        : 35
+#      OBUF                        : 34
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              35  out of  69120     0%  
+ Number of Slice LUTs:                   69  out of  69120     0%  
+    Number used as Logic:                69  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     69
+   Number with an unused Flip Flop:      34  out of     69    49%  
+   Number with an unused LUT:             0  out of     69     0%  
+   Number of fully used LUT-FF pairs:    35  out of     69    50%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          74
+ Number of bonded IOBs:                  70  out of    640    10%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+FSL_Clk                            | BUFGP                  | 35    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.139ns (Maximum Frequency: 318.573MHz)
+   Minimum input arrival time before clock: 3.571ns
+   Maximum output required time after clock: 4.057ns
+   Maximum combinational path delay: 4.404ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_Clk'
+  Clock period: 3.139ns (frequency: 318.573MHz)
+  Total number of paths / destination ports: 1128 / 35
+-------------------------------------------------------------------------
+Delay:               3.139ns (Levels of Logic = 34)
+  Source:            sum_31 (FF)
+  Destination:       sum_0 (FF)
+  Source Clock:      FSL_Clk rising
+  Destination Clock: FSL_Clk rising
+
+  Data Path: sum_31 to sum_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.471   0.491  sum_31 (sum_31)
+     LUT2:I1->O            1   0.094   0.000  Madd_sum_addsub0000_lut<0> (Madd_sum_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  Madd_sum_addsub0000_cy<0> (Madd_sum_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<1> (Madd_sum_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<2> (Madd_sum_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<3> (Madd_sum_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<4> (Madd_sum_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<5> (Madd_sum_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<6> (Madd_sum_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<7> (Madd_sum_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<8> (Madd_sum_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<9> (Madd_sum_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<10> (Madd_sum_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<11> (Madd_sum_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<12> (Madd_sum_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<13> (Madd_sum_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<14> (Madd_sum_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<15> (Madd_sum_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<16> (Madd_sum_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<17> (Madd_sum_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<18> (Madd_sum_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<19> (Madd_sum_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<20> (Madd_sum_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<21> (Madd_sum_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<22> (Madd_sum_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<23> (Madd_sum_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<24> (Madd_sum_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<25> (Madd_sum_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<26> (Madd_sum_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<27> (Madd_sum_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<28> (Madd_sum_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<29> (Madd_sum_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.026   0.000  Madd_sum_addsub0000_cy<30> (Madd_sum_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.357   0.480  Madd_sum_addsub0000_xor<31> (sum_addsub0000<31>)
+     LUT5:I4->O            1   0.094   0.000  sum_mux0000<0>1 (sum_mux0000<0>)
+     FDR:D                    -0.018          sum_0
+    ----------------------------------------
+    Total                      3.139ns (2.168ns logic, 0.971ns route)
+                                       (69.1% logic, 30.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 598 / 70
+-------------------------------------------------------------------------
+Offset:              3.571ns (Levels of Logic = 35)
+  Source:            FSL_S_Data<31> (PAD)
+  Destination:       sum_0 (FF)
+  Destination Clock: FSL_Clk rising
+
+  Data Path: FSL_S_Data<31> to sum_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.818   0.576  FSL_S_Data_31_IBUF (FSL_S_Data_31_IBUF)
+     LUT2:I0->O            1   0.094   0.000  Madd_sum_addsub0000_lut<0> (Madd_sum_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  Madd_sum_addsub0000_cy<0> (Madd_sum_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<1> (Madd_sum_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<2> (Madd_sum_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<3> (Madd_sum_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<4> (Madd_sum_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<5> (Madd_sum_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<6> (Madd_sum_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<7> (Madd_sum_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<8> (Madd_sum_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<9> (Madd_sum_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<10> (Madd_sum_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<11> (Madd_sum_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<12> (Madd_sum_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<13> (Madd_sum_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<14> (Madd_sum_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<15> (Madd_sum_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<16> (Madd_sum_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<17> (Madd_sum_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<18> (Madd_sum_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<19> (Madd_sum_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<20> (Madd_sum_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<21> (Madd_sum_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<22> (Madd_sum_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<23> (Madd_sum_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<24> (Madd_sum_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<25> (Madd_sum_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<26> (Madd_sum_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<27> (Madd_sum_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<28> (Madd_sum_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.026   0.000  Madd_sum_addsub0000_cy<29> (Madd_sum_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.026   0.000  Madd_sum_addsub0000_cy<30> (Madd_sum_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.357   0.480  Madd_sum_addsub0000_xor<31> (sum_addsub0000<31>)
+     LUT5:I4->O            1   0.094   0.000  sum_mux0000<0>1 (sum_mux0000<0>)
+     FDR:D                    -0.018          sum_0
+    ----------------------------------------
+    Total                      3.571ns (2.515ns logic, 1.056ns route)
+                                       (70.4% logic, 29.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 34 / 34
+-------------------------------------------------------------------------
+Offset:              4.057ns (Levels of Logic = 2)
+  Source:            state_FSM_FFd1 (FF)
+  Destination:       FSL_M_Write (PAD)
+  Source Clock:      FSL_Clk rising
+
+  Data Path: state_FSM_FFd1 to FSL_M_Write
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             35   0.471   0.704  state_FSM_FFd1 (state_FSM_FFd1)
+     LUT2:I0->O            1   0.094   0.336  FSL_M_Write1 (FSL_M_Write_OBUF)
+     OBUF:I->O                 2.452          FSL_M_Write_OBUF (FSL_M_Write)
+    ----------------------------------------
+    Total                      4.057ns (3.017ns logic, 1.040ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               4.404ns (Levels of Logic = 3)
+  Source:            FSL_S_Exists (PAD)
+  Destination:       FSL_S_Read (PAD)
+
+  Data Path: FSL_S_Exists to FSL_S_Read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            36   0.818   0.704  FSL_S_Exists_IBUF (FSL_S_Exists_IBUF)
+     LUT2:I0->O            1   0.094   0.336  FSL_S_Read1 (FSL_S_Read_OBUF)
+     OBUF:I->O                 2.452          FSL_S_Read_OBUF (FSL_S_Read)
+    ----------------------------------------
+    Total                      4.404ns (3.364ns logic, 1.040ns route)
+                                       (76.4% logic, 23.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.32 secs
+ 
+--> 
+
+
+Total memory usage is 639820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
