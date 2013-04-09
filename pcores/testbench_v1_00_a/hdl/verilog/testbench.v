@@ -364,3 +364,49 @@ input                                     FSL_M_Full;
    end
 
 endmodule
+
+module   xfft_v7_1 (
+  input clk,
+  input start,
+  input [15 : 0] xn0_re,
+  input [15 : 0] xn0_im,
+  /*xn1_re(fft_xn_re[1]), */ input [15 : 0] xn1_re,
+  /*xn1_im(fft_xn_im[1]), */ input [15 : 0] xn1_im,
+  /*xn2_re(fft_xn_re[2]), */ input [15 : 0] xn2_re,
+  /*xn2_im(fft_xn_im[2]), */ input [15 : 0] xn2_im,
+  /*xn3_re(fft_xn_re[3]), */ input [15 : 0] xn3_re,
+  /*xn3_im(fft_xn_im[3]), */ input [15 : 0] xn3_im,
+  /*fwd_inv0(fft_fwd_inv), */ input fwd_inv0,
+  /*fwd_inv0_we(fft_fwd_inv_we), */ input fwd_inv0_we,
+  /*fwd_inv1(fft_fwd_inv), */ input fwd_inv1,
+  /*fwd_inv1_we(fft_fwd_inv_we), */ input fwd_inv1_we,
+  /*fwd_inv2(fft_fwd_inv), */ input fwd_inv2,
+  /*fwd_inv2_we(fft_fwd_inv_we), */ input fwd_inv2_we,
+  /*fwd_inv3(fft_fwd_inv), */ input fwd_inv3,
+  /*fwd_inv3_we(fft_fwd_inv_we), */ input fwd_inv3_we,
+  /*scale_sch0(fft_scale_sch), */ input [19 : 0] scale_sch0,
+  /*scale_sch0_we(fft_scale_sch_we), */ input scale_sch0_we,
+  /*scale_sch1(fft_scale_sch), */ input [19 : 0] scale_sch1,
+  /*scale_sch1_we(fft_scale_sch_we), */ input scale_sch1_we,
+  /*scale_sch2(fft_scale_sch), */ input [19 : 0] scale_sch2,
+  /*scale_sch2_we(fft_scale_sch_we), */ input scale_sch2_we,
+  /*scale_sch3(fft_scale_sch), */ input [19 : 0] scale_sch3,
+  /*scale_sch3_we(fft_scale_sch_we), */ input scale_sch3_we,
+  /*rfd(fft_rfd), */ output rfd,
+  /*xn_index(fft_xn_index), */ output [9 : 0] xn_index,
+  /*busy(fft_busy), */ output busy,
+  /*edone(fft_edone), */ output edone,
+  /*done(fft_done), */ output done,
+  /*dv(fft_dv), */ output dv,
+  /*xk_index(fft_xk_index), */ output [9 : 0] xk_index,
+  /*xk0_re(fft_xk_re[0]), */ output [15 : 0] xk0_re,
+  /*xk0_im(fft_xk_im[0]), */ output [15 : 0] xk0_im,
+  /*xk1_re(fft_xk_re[1]), */ output [15 : 0] xk1_re,
+  /*xk1_im(fft_xk_im[1]), */ output [15 : 0] xk1_im,
+  /*xk2_re(fft_xk_re[2]), */ output [15 : 0] xk2_re,
+  /*xk2_im(fft_xk_im[2]), */ output [15 : 0] xk2_im,
+  /*xk3_re(fft_xk_re[3]), */ output [15 : 0] xk3_re,
+  /*xk3_im(fft_xk_im[3]) */ output [15 : 0] xk3_im
+);
+endmodule
+
