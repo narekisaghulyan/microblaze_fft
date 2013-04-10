@@ -1,7 +1,0 @@
-##############################################################################
-## Filename:          /home/cc/cs150/sp13/class/cs150-ad/pcores/gcd_coprocessor_v1_00_a/data/gcd_coprocessor_v2_1_0.pao
-## Description:       Peripheral Analysis Order
-## Date:              Tue Mar  5 21:02:43 2013 (by Create and Import Peripheral Wizard)
-##############################################################################
-
-lib gcd_coprocessor_v1_00_a gcd_coprocessor verilog

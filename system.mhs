@@ -1,7 +1,7 @@
 
 # ##############################################################################
 # Created by Base System Builder Wizard for Xilinx EDK 14.1 Build EDK_P.15xf
-# Tue Mar  5 13:20:17 2013
+# Tue Apr  9 17:18:48 2013
 # Target Board:  Xilinx XUPV5-LX110T Evaluation Platform Rev A
 # Family:    virtex5
 # Device:    xc5vlx110t
@@ -26,14 +26,14 @@ BEGIN microblaze
  PARAMETER C_USE_BARREL = 1
  PARAMETER C_DEBUG_ENABLED = 1
  PARAMETER HW_VER = 8.30.a
- PARAMETER C_FSL_LINKS = 2
+ PARAMETER C_FSL_LINKS = 1
  BUS_INTERFACE DLMB = dlmb
  BUS_INTERFACE ILMB = ilmb
  BUS_INTERFACE DPLB = mb_plb
  BUS_INTERFACE IPLB = mb_plb
  BUS_INTERFACE DEBUG = microblaze_0_mdm_bus
- BUS_INTERFACE MFSL0 = microblaze_0_to_gcd_coprocessor_1
- BUS_INTERFACE SFSL0 = gcd_coprocessor_1_to_microblaze_0
+ BUS_INTERFACE SFSL0 = fft_coprocessor_0_to_microblaze_0
+ BUS_INTERFACE MFSL0 = microblaze_0_to_fft_coprocessor_0
  PORT MB_RESET = mb_reset
 END
 
@@ -118,7 +118,7 @@ BEGIN mdm
  PARAMETER C_USE_UART = 1
  PARAMETER HW_VER = 2.00.b
  PARAMETER C_BASEADDR = 0x84400000
- PARAMETER C_HIGHADDR = 0x8440FFFF
+ PARAMETER C_HIGHADDR = 0x8440ffff
  BUS_INTERFACE SPLB = mb_plb
  BUS_INTERFACE MBDEBUG_0 = microblaze_0_mdm_bus
  PORT Debug_SYS_Rst = Debug_SYS_Rst
@@ -138,23 +138,23 @@ BEGIN proc_sys_reset
 END
 
 BEGIN fsl_v20
- PARAMETER INSTANCE = gcd_coprocessor_1_to_microblaze_0
+ PARAMETER INSTANCE = fft_coprocessor_0_to_microblaze_0
  PARAMETER HW_VER = 2.11.e
  PARAMETER C_EXT_RESET_HIGH = 1
  PORT FSL_Clk = clk_50_0000MHz
  PORT SYS_Rst = sys_bus_reset
 END
 
-BEGIN gcd_coprocessor
- PARAMETER INSTANCE = gcd_coprocessor_1
+BEGIN fft_coprocessor
+ PARAMETER INSTANCE = fft_coprocessor_0
  PARAMETER HW_VER = 1.00.a
- BUS_INTERFACE MFSL = gcd_coprocessor_1_to_microblaze_0
- BUS_INTERFACE SFSL = microblaze_0_to_gcd_coprocessor_1
+ BUS_INTERFACE MFSL = fft_coprocessor_0_to_microblaze_0
+ BUS_INTERFACE SFSL = microblaze_0_to_fft_coprocessor_0
  PORT FSL_Clk = clk_50_0000MHz
 END
 
 BEGIN fsl_v20
- PARAMETER INSTANCE = microblaze_0_to_gcd_coprocessor_1
+ PARAMETER INSTANCE = microblaze_0_to_fft_coprocessor_0
  PARAMETER HW_VER = 2.11.e
  PARAMETER C_EXT_RESET_HIGH = 1
  PORT FSL_Clk = clk_50_0000MHz

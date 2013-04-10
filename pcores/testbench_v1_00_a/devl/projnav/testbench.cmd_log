@@ -1,3 +1,0 @@
-xst -intstyle ise -ifn "/home/cc/cs150/sp13/class/cs150-ad/pcores/testbench_v1_00_a/devl/projnav/testbench.xst" -ofn "/home/cc/cs150/sp13/class/cs150-ad/pcores/testbench_v1_00_a/devl/projnav/testbench.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 testbench.ngc testbench.ngd  
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 testbench.ngc testbench.ngd  

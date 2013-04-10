@@ -1,7 +1,0 @@
-##############################################################################
-## Filename:          /home/cc/cs150/sp13/class/cs150-ad/pcores/testbench_v1_00_a/data/testbench_v2_1_0.pao
-## Description:       Peripheral Analysis Order
-## Date:              Wed Apr  3 19:26:31 2013 (by Create and Import Peripheral Wizard)
-##############################################################################
-
-lib testbench_v1_00_a testbench verilog

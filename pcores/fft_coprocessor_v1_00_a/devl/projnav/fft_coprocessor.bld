@@ -1,0 +1,184 @@
+Release 14.1 ngdbuild P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../../../.. -nt timestamp -i -p xc5vlx110t-ff1136-1
+fft_coprocessor.ngc fft_coprocessor.ngd
+
+Reading NGO file
+"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_
+a/devl/projnav/fft_coprocessor.ngc" ...
+Loading design module "../../../../xfft_v7_1.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007c8' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007c9' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007ca' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007cb' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007cc' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007cd' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007de' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007df' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007e0' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007fa' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007fb' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007fc' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007fd' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007fe' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000007ff' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000810' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000811' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000812' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000082c' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000082d' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000082e' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000082f' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000830' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000831' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000842' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000843' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000844' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000085e' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000085f' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000860' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000861' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000862' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000863' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000874' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000875' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000876' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000890' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000891' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000892' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000893' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000894' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000895' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008a6' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008a7' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008a8' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c2' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c3' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c4' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c5' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c6' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008c7' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008d8' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008d9' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008da' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f4' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f5' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f6' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f7' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f8' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk000008f9' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000090a' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000090b' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000090c' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000926' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000927' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000928' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk00000929' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000092a' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000092b' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000093c' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000093d' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000093e' has unconnected output
+   pin
+WARNING:NgdBuild:443 - SFF primitive 'my_fft/blk0000103b' has unconnected output
+   pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  73
+
+Total memory usage is 545716 kilobytes
+
+Writing NGD file "fft_coprocessor.ngd" ...
+Total REAL time to NGDBUILD completion:  23 sec
+Total CPU time to NGDBUILD completion:   22 sec
+
+Writing NGDBUILD log file "fft_coprocessor.bld"...

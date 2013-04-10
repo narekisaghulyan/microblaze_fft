@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------
+--                            File Generation                             --
+----------------------------------------------------------------------------
+Start Creating ISE project 
+Start Creating drver source 
+
+----------------------------------------------------------------------------
+--                              Final Report                              --
+----------------------------------------------------------------------------
+Thank you for using Create and Import Peripheral Wizard!
+
+Peripheral summary
+
+  top name       : fft_coprocessor
+  version        : 1.00.a
+  type           : FSL master slave
+  features       : 
+
+File Summary
+
+  - HDL source -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a
+/hdl/vhdl
+  top level      : fft_coprocessor.vhd
+
+  - XPS interface -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a
+/data
+  mpd            : fft_coprocessor_v2_1_0.mpd
+  pao            : fft_coprocessor_v2_1_0.pao
+
+  - ISE project -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a
+/devl/projnav
+  ise project    : fft_coprocessor.xise
+  tcl script     : fft_coprocessor.tcl
+
+
+  - XST synthesis -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a
+/devl/synthesis
+  xst script     : fft_coprocessor_xst.scr
+  xst project    : fft_coprocessor_xst.prj
+
+  - Misc file -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a
+/devl
+  help           : README.txt
+  option         : ipwiz.opt
+  log            : ipwiz.log
+
+  - Driver source -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/drivers/fft_coprocessor_v1_00_
+a/src
+  makefile       : Makefile
+  header         : fft_coprocessor.h
+  source         : fft_coprocessor.c
+
+  - Driver interface -
+  - user needs to add these to repositories path in SDK (Xilinx
+Tools-->Repositories)
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/drivers/fft_coprocessor_v1_00_
+a/data
+  mdd            : fft_coprocessor_v2_1_0.mdd
+  tcl            : fft_coprocessor_v2_1_0.tcl
+
+

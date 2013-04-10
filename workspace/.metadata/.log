@@ -1,0 +1,108 @@
+!SESSION 2013-04-09 18:04:40.141 -----------------------------------------------
+eclipse.buildId=Release 14.1 Build SDK_P.15xf
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/workspace -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-04-09 18:06:20.456
+!MESSAGE Indexed 'hello' (0 sources, 8 headers) in 0.58 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-04-09 18:07:41.929
+!MESSAGE Indexed 'hello_world_bsp_0' (0 sources, 8 headers) in 0.07 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-04-09 18:07:55.076
+!MESSAGE Indexed 'hello_world_0' (2 sources, 31 headers) in 1.17 sec: 1,076 declarations; 1,103 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.05%)
+!SESSION 2013-04-09 18:23:26.308 -----------------------------------------------
+eclipse.buildId=Release 14.1 Build SDK_P.15xf
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-04-09 18:23:30.680
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 4 2 2013-04-09 18:23:42.419
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:466)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:404)
+	at org.eclipse.swt.widgets.Control.setRedraw(Control.java:4002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.labelProviderChanged(AbstractTreeViewer.java:2119)
+	at org.eclipse.jface.viewers.ContentViewer.handleLabelProviderChanged(ContentViewer.java:193)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1172)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:235)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:97)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:74)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider$1.labelProviderChanged(DecoratingStyledCellLabelProvider.java:77)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider$1.run(NavigatorContentServiceLabelProvider.java:339)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.fireLabelProviderChanged(NavigatorContentServiceLabelProvider.java:337)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.labelProviderChanged(NavigatorContentServiceLabelProvider.java:380)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:74)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.model.WorkbenchLabelProvider.access$0(WorkbenchLabelProvider.java:1)
+	at org.eclipse.ui.model.WorkbenchLabelProvider$1.propertyChanged(WorkbenchLabelProvider.java:66)
+	at org.eclipse.ui.internal.registry.EditorRegistry$2.run(EditorRegistry.java:326)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.registry.EditorRegistry.firePropertyChange(EditorRegistry.java:324)
+	at org.eclipse.ui.internal.registry.EditorRegistry.setFileEditorMappings(EditorRegistry.java:1095)
+	at com.xilinx.sdk.startup.InitSDK.setDefaultEditorForTcl(Unknown Source)
+	at com.xilinx.sdk.startup.InitSDK.earlyStartup(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2013-04-09 18:23:42.433
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.SWT.error(SWT.java:3969)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:466)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:404)
+	at org.eclipse.swt.widgets.Control.setRedraw(Control.java:4002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.labelProviderChanged(AbstractTreeViewer.java:2119)
+	at org.eclipse.jface.viewers.ContentViewer.handleLabelProviderChanged(ContentViewer.java:193)
+	at org.eclipse.jface.viewers.StructuredViewer.handleLabelProviderChanged(StructuredViewer.java:1172)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:235)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:97)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider$1.run(NavigatorContentServiceLabelProvider.java:339)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.fireLabelProviderChanged(NavigatorContentServiceLabelProvider.java:337)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.labelProviderChanged(NavigatorContentServiceLabelProvider.java:380)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:74)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.model.WorkbenchLabelProvider.access$0(WorkbenchLabelProvider.java:1)
+	at org.eclipse.ui.model.WorkbenchLabelProvider$1.propertyChanged(WorkbenchLabelProvider.java:66)
+	at org.eclipse.ui.internal.registry.EditorRegistry$2.run(EditorRegistry.java:326)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.registry.EditorRegistry.firePropertyChange(EditorRegistry.java:324)
+	at org.eclipse.ui.internal.registry.EditorRegistry.setFileEditorMappings(EditorRegistry.java:1095)
+	at com.xilinx.sdk.startup.InitSDK.setDefaultEditorForTcl(Unknown Source)
+	at com.xilinx.sdk.startup.InitSDK.earlyStartup(Unknown Source)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/data/fft_coprocessor_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue Apr  9 19:58:11 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib fft_coprocessor_v1_00_a fft_coprocessor verilog

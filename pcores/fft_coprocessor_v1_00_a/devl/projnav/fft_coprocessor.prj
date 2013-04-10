@@ -1,0 +1,2 @@
+verilog work "../../../../xfft_v7_1.v"
+verilog work "../../hdl/verilog/fft_coprocessor.v"

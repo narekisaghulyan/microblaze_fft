@@ -1,0 +1,11 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/devl/synthesis/fft_coprocessor_xst.prj
+-top fft_coprocessor
+-p virtex6
+-ofn /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/devl/synthesis/fft_coprocessor_xst.ngc
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /

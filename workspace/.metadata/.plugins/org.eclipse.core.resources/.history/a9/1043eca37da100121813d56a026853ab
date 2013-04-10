@@ -1,0 +1,3 @@
+#Tue Apr 09 18:25:57 PDT 2013
+eclipse.preferences.version=1
+jtag.settings=\ -cable type xilinx_platformusb port USB21 frequency 6000000

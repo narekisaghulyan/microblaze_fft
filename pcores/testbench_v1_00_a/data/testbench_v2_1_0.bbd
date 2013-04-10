@@ -1,9 +1,0 @@
-##############################################################################
-## Filename:          /home/cc/cs150/sp13/class/cs150-ad/pcores/testbench_v1_00_a/data/testbench_v2_1_0.bbd
-## Description:       Black Box Definition
-## Date:              Thu Apr  4 12:53:10 2013 (by Create and Import Peripheral Wizard)
-##############################################################################
-
-Files
-################################################################################
-xfft_v7_1.ngc

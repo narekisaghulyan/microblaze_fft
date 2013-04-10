@@ -1,0 +1,9 @@
+ran coregen, creating fft module (xfft*)
+copied lib from lab5B (lib)
+created system.xmp, following instructions from lab5B, up to page 4 (system*)
+exported and launched SDK (pcores, data, etc, ...)
+created new Xilinx C Project (workspace/*)
+in XPS, downloaded bitstream
+in SDK, Program FPGA -- success on hello world project
+in XPS, create new peripheral
+
