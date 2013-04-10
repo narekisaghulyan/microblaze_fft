@@ -12,3 +12,4 @@ xst -intstyle ise -ifn "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores
 ngdbuild -intstyle ise -dd _ngo -sd ../../../.. -nt timestamp -i -p xc5vlx110t-ff1136-1 fft_coprocessor.ngc fft_coprocessor.ngd  
 map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o fft_coprocessor_map.ncd fft_coprocessor.ngd fft_coprocessor.pcf 
 par -w -intstyle ise -ol high -mt off fft_coprocessor_map.ncd fft_coprocessor.ncd fft_coprocessor.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml fft_coprocessor.twx fft_coprocessor.ncd -o fft_coprocessor.twr fft_coprocessor.pcf 
