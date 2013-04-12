@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthe
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> 
 
@@ -60,310 +60,211 @@ Cores Search Directories           : {./}
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_types_pkg.vhd" in Library microblaze_v8_30_a.
-Package <MicroBlaze_Types> compiled.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_types_pkg_body.vhd" in Library microblaze_v8_30_a.
-Package body <MicroBlaze_Types> compiled.
+Architecture microblaze_types of Entity microblaze_types is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_isa_be_pkg.vhd" in Library microblaze_v8_30_a.
-Package <MicroBlaze_ISA> compiled.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_and.vhd" in Library microblaze_v8_30_a.
-Entity <carry_and> compiled.
-Entity <carry_and> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_and is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/dsp_module.vhd" in Library microblaze_v8_30_a.
-Entity <dsp_module> compiled.
-Entity <dsp_module> (Architecture <IMP>) compiled.
+Architecture imp of Entity dsp_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/find_first_bit.vhd" in Library microblaze_v8_30_a.
-Entity <find_first_bit> compiled.
-Entity <find_first_bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity find_first_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_primitives.vhd" in Library microblaze_v8_30_a.
-Entity <MB_SRL16E> compiled.
-Entity <MB_SRL16E> (Architecture <IMP>) compiled.
+Architecture imp of Entity mb_srl16e is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mmu_types_pkg.vhd" in Library microblaze_v8_30_a.
-Package <MMU_Types> compiled.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_compare_mask.vhd" in Library microblaze_v8_30_a.
-Entity <carry_compare_mask> compiled.
-Entity <carry_compare_mask> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_compare_mask is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_compare.vhd" in Library microblaze_v8_30_a.
-Entity <carry_compare> compiled.
-Entity <carry_compare> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_compare is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mmu_utlb_ram.vhd" in Library microblaze_v8_30_a.
-Entity <MMU_UTLB_RAM> compiled.
-Entity <MMU_UTLB_RAM> (Architecture <IMP>) compiled.
+Architecture imp of Entity mmu_utlb_ram is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/parity.vhd" in Library microblaze_v8_30_a.
-Entity <Parity_Recursive_LUT6> compiled.
-Entity <Parity_Recursive_LUT6> (Architecture <IMP>) compiled.
-Entity <Parity> compiled.
-Entity <Parity> (Architecture <IMP>) compiled.
+Architecture imp of Entity parity_recursive_lut6 is up to date.
+Architecture imp of Entity parity is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mux_bus.vhd" in Library microblaze_v8_30_a.
-Entity <mux_bus> compiled.
-Entity <mux_bus> (Architecture <IMP>) compiled.
+Architecture imp of Entity mux_bus is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_compare_const.vhd" in Library microblaze_v8_30_a.
-Entity <carry_compare_const> compiled.
-Entity <carry_compare_const> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_compare_const is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu_addsub.vhd" in Library microblaze_v8_30_a.
-Entity <FPU_ADDSUB> compiled.
-Entity <FPU_ADDSUB> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu_addsub is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu_mul.vhd" in Library microblaze_v8_30_a.
-Entity <FPU_MUL> compiled.
-Entity <FPU_MUL> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu_mul is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu_div.vhd" in Library microblaze_v8_30_a.
-Entity <FPU_DIV> compiled.
-Entity <FPU_DIV> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu_div is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu_sqrt.vhd" in Library microblaze_v8_30_a.
-Entity <fpu_sqrt> compiled.
-Entity <fpu_sqrt> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu_sqrt is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu_conv.vhd" in Library microblaze_v8_30_a.
-Entity <fpu_conv> compiled.
-Entity <fpu_conv> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu_conv is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/wb_mux_bit_gti.vhd" in Library microblaze_v8_30_a.
-Entity <WB_Mux_Bit> compiled.
-Entity <WB_Mux_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity wb_mux_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/count_leading_zero.vhd" in Library microblaze_v8_30_a.
-Entity <count_leading_zeros> compiled.
-Entity <count_leading_zeros> (Architecture <IMP>) compiled.
+Architecture imp of Entity count_leading_zeros is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_equal.vhd" in Library microblaze_v8_30_a.
-Entity <carry_equal> compiled.
-Entity <carry_equal> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_equal is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/alu_bit.vhd" in Library microblaze_v8_30_a.
-Entity <ALU_Bit> compiled.
-Entity <ALU_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity alu_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/ram_module.vhd" in Library microblaze_v8_30_a.
-Entity <RAM_Module> compiled.
-Entity <RAM_Module> (Architecture <IMP>) compiled.
+Architecture imp of Entity ram_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/comparator.vhd" in Library microblaze_v8_30_a.
-Entity <comparator> compiled.
-Entity <comparator> (Architecture <IMP>) compiled.
+Architecture imp of Entity comparator is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/carry_or.vhd" in Library microblaze_v8_30_a.
-Entity <carry_or> compiled.
-Entity <carry_or> (Architecture <IMP>) compiled.
+Architecture imp of Entity carry_or is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/cache_valid_bit_detect.vhd" in Library microblaze_v8_30_a.
-Entity <cache_valid_bit_detect> compiled.
-Entity <cache_valid_bit_detect> (Architecture <IMP>) compiled.
+Architecture imp of Entity cache_valid_bit_detect is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/pc_bit.vhd" in Library microblaze_v8_30_a.
-Entity <PC_Bit> compiled.
-Entity <PC_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity pc_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/msr_reg_bit.vhd" in Library microblaze_v8_30_a.
-Entity <MSR_Reg_Bit> compiled.
-Entity <MSR_Reg_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity msr_reg_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/result_mux_bit.vhd" in Library microblaze_v8_30_a.
-Entity <Result_Mux_Bit> compiled.
-Entity <Result_Mux_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity result_mux_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/shift_logic_bit.vhd" in Library microblaze_v8_30_a.
-Entity <Shift_Logic_Bit> compiled.
-Entity <Shift_Logic_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity shift_logic_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/operand_select_bit.vhd" in Library microblaze_v8_30_a.
-Entity <Operand_Select_Bit> compiled.
-Entity <Operand_Select_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity operand_select_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/register_file_bit.vhd" in Library microblaze_v8_30_a.
-Entity <Register_File_Bit> compiled.
-Entity <Register_File_Bit> (Architecture <IMP>) compiled.
+Architecture imp of Entity register_file_bit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mmu_utlb.vhd" in Library microblaze_v8_30_a.
-Entity <MMU_UTLB> compiled.
-Entity <MMU_UTLB> (Architecture <IMP>) compiled.
+Architecture imp of Entity mmu_utlb is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mmu_tlb.vhd" in Library microblaze_v8_30_a.
-Entity <MMU_TLB> compiled.
-Entity <MMU_TLB> (Architecture <IMP>) compiled.
+Architecture imp of Entity mmu_tlb is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/cache_interface.vhd" in Library microblaze_v8_30_a.
-Entity <Cache_Interface> compiled.
-Entity <Cache_Interface> (Architecture <IMP>) compiled.
+Architecture imp of Entity cache_interface is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/register_file_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Register_File_gti> compiled.
-Entity <Register_File_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity register_file_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/operand_select_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Operand_Select_gti> compiled.
-Entity <Operand_Select_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity operand_select_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/alu.vhd" in Library microblaze_v8_30_a.
-Entity <ALU> compiled.
-Entity <ALU> (Architecture <IMP>) compiled.
+Architecture imp of Entity alu is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/shift_logic_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Shift_Logic_Module_gti> compiled.
-Entity <Shift_Logic_Module_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity shift_logic_module_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mul_unit.vhd" in Library microblaze_v8_30_a.
-Entity <mul_unit> compiled.
-Entity <mul_unit> (Architecture <IMP>) compiled.
+Architecture imp of Entity mul_unit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/barrel_shifter_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Barrel_Shifter_gti> compiled.
-Entity <Barrel_Shifter_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity barrel_shifter_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/wb_mux_gti.vhd" in Library microblaze_v8_30_a.
-Entity <WB_Mux> compiled.
-Entity <WB_Mux> (Architecture <IMP>) compiled.
+Architecture imp of Entity wb_mux is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/zero_detect_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Zero_Detect_gti> compiled.
-Entity <Zero_Detect_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity zero_detect_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/byte_doublet_handle_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Byte_Doublet_Handle_gti> compiled.
-Entity <Byte_Doublet_Handle_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity byte_doublet_handle_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/data_flow_logic_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Data_Flow_Logic> compiled.
-Entity <Data_Flow_Logic> (Architecture <IMP>) compiled.
+Architecture imp of Entity data_flow_logic is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/msr_reg_gti.vhd" in Library microblaze_v8_30_a.
-Entity <msr_reg_gti> compiled.
-Entity <msr_reg_gti> (Architecture <msr_reg>) compiled.
+Architecture msr_reg of Entity msr_reg_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/exception_registers_gti.vhd" in Library microblaze_v8_30_a.
-Entity <exception_registers_gti> compiled.
-Entity <exception_registers_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity exception_registers_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/div_unit_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Div_unit_gti> compiled.
-Entity <Div_unit_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity div_unit_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fpu.vhd" in Library microblaze_v8_30_a.
-Entity <Fpu> compiled.
-Entity <Fpu> (Architecture <IMP>) compiled.
+Architecture imp of Entity fpu is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/pvr.vhd" in Library microblaze_v8_30_a.
-Entity <PVR> compiled.
-Entity <PVR> (Architecture <IMP>) compiled.
+Architecture imp of Entity pvr is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/stack_protection.vhd" in Library microblaze_v8_30_a.
-Entity <stack_protection> compiled.
-Entity <stack_protection> (Architecture <IMP>) compiled.
+Architecture imp of Entity stack_protection is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/pc_module_gti.vhd" in Library microblaze_v8_30_a.
-Entity <PC_Module_gti> compiled.
-Entity <PC_Module_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity pc_module_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/prefetch_buffer_gti.vhd" in Library microblaze_v8_30_a.
-Entity <PreFetch_Buffer_gti> compiled.
-Entity <PreFetch_Buffer_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity prefetch_buffer_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/jump_logic_gti.vhd" in Library microblaze_v8_30_a.
-Entity <jump_logic> compiled.
-Entity <jump_logic> (Architecture <IMP>) compiled.
+Architecture imp of Entity jump_logic is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/cachehit_detect.vhd" in Library microblaze_v8_30_a.
-Entity <cachehit_detect> compiled.
-Entity <cachehit_detect> (Architecture <IMP>) compiled.
+Architecture imp of Entity cachehit_detect is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/vec_mux.vhd" in Library microblaze_v8_30_a.
-Entity <vec_mux> compiled.
-Entity <vec_mux> (Architecture <IMP>) compiled.
+Architecture imp of Entity vec_mux is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/victim_cache.vhd" in Library microblaze_v8_30_a.
-Entity <LRU_Module> compiled.
-Entity <LRU_Module> (Architecture <LRU_Module>) compiled.
-Entity <victim_cache> compiled.
-Entity <victim_cache> (Architecture <IMP>) compiled.
+Architecture lru_module of Entity lru_module is up to date.
+Architecture imp of Entity victim_cache is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/stream_cache.vhd" in Library microblaze_v8_30_a.
-Entity <stream_cache> compiled.
-Entity <stream_cache> (Architecture <IMP>) compiled.
+Architecture imp of Entity stream_cache is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/address_hit.vhd" in Library microblaze_v8_30_a.
-Entity <address_hit> compiled.
-Entity <address_hit> (Architecture <IMP>) compiled.
+Architecture imp of Entity address_hit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/address_data_hit.vhd" in Library microblaze_v8_30_a.
-Entity <address_data_hit> compiled.
-Entity <address_data_hit> (Architecture <IMP>) compiled.
+Architecture imp of Entity address_data_hit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/data_read_steering.vhd" in Library microblaze_v8_30_a.
-Entity <Data_Read_Steering> compiled.
-Entity <Data_Read_Steering> (Architecture <IMP>) compiled.
+Architecture imp of Entity data_read_steering is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mux4_8.vhd" in Library microblaze_v8_30_a.
-Entity <mux4_8> compiled.
-Entity <mux4_8> (Architecture <IMP>) compiled.
+Architecture imp of Entity mux4_8 is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/register_file.vhd" in Library microblaze_v8_30_a.
-Entity <Register_File> compiled.
-Entity <Register_File> (Architecture <IMP>) compiled.
+Architecture imp of Entity register_file is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/operand_select.vhd" in Library microblaze_v8_30_a.
-Entity <Operand_Select> compiled.
-Entity <Operand_Select> (Architecture <IMP>) compiled.
+Architecture imp of Entity operand_select is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/shift_logic.vhd" in Library microblaze_v8_30_a.
-Entity <Shift_Logic_Module> compiled.
-Entity <Shift_Logic_Module> (Architecture <IMP>) compiled.
+Architecture imp of Entity shift_logic_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/barrel_shifter.vhd" in Library microblaze_v8_30_a.
-Entity <barrel_shift> compiled.
-Entity <barrel_shift> (Architecture <IMP>) compiled.
+Architecture imp of Entity barrel_shift is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/div_unit.vhd" in Library microblaze_v8_30_a.
-Entity <Div_unit> compiled.
-Entity <Div_unit> (Architecture <IMP>) compiled.
+Architecture imp of Entity div_unit is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/result_mux.vhd" in Library microblaze_v8_30_a.
-Entity <Result_Mux> compiled.
-Entity <Result_Mux> (Architecture <IMP>) compiled.
+Architecture imp of Entity result_mux is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/zero_detect.vhd" in Library microblaze_v8_30_a.
-Entity <Zero_Detect> compiled.
-Entity <Zero_Detect> (Architecture <IMP>) compiled.
+Architecture imp of Entity zero_detect is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/msr_reg.vhd" in Library microblaze_v8_30_a.
-Entity <MSR_Reg> compiled.
-Entity <MSR_Reg> (Architecture <IMP>) compiled.
+Architecture imp of Entity msr_reg is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/pc_module.vhd" in Library microblaze_v8_30_a.
-Entity <PC_Module> compiled.
-Entity <PC_Module> (Architecture <IMP>) compiled.
+Architecture imp of Entity pc_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/prefetch_buffer.vhd" in Library microblaze_v8_30_a.
-Entity <PreFetch_Buffer> compiled.
-Entity <PreFetch_Buffer> (Architecture <IMP>) compiled.
+Architecture imp of Entity prefetch_buffer is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/fsl_module.vhd" in Library microblaze_v8_30_a.
-Entity <FSL_Module> compiled.
-Entity <FSL_Module> (Architecture <IMP>) compiled.
+Architecture imp of Entity fsl_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/streaming_axi.vhd" in Library microblaze_v8_30_a.
-Entity <Streaming_AXI> compiled.
-Entity <Streaming_AXI> (Architecture <IMP>) compiled.
+Architecture imp of Entity streaming_axi is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/interrupt_mode_converter.vhd" in Library microblaze_v8_30_a.
-Entity <interrupt_mode_converter> compiled.
-Entity <interrupt_mode_converter> (Architecture <IMP>) compiled.
+Architecture imp of Entity interrupt_mode_converter is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/decode.vhd" in Library microblaze_v8_30_a.
-Entity <Decode> compiled.
-Entity <Decode> (Architecture <IMP>) compiled.
+Architecture imp of Entity decode is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/data_flow.vhd" in Library microblaze_v8_30_a.
-Entity <Data_Flow> compiled.
-Entity <Data_Flow> (Architecture <IMP>) compiled.
+Architecture imp of Entity data_flow is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/byte_doublet_handle.vhd" in Library microblaze_v8_30_a.
-Entity <Byte_Doublet_Handle> compiled.
-Entity <Byte_Doublet_Handle> (Architecture <IMP>) compiled.
+Architecture imp of Entity byte_doublet_handle is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/dplb_interface.vhd" in Library microblaze_v8_30_a.
-Entity <DPLB_Interface> compiled.
-Entity <DPLB_Interface> (Architecture <IMP>) compiled.
+Architecture imp of Entity dplb_interface is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/daxi_interface.vhd" in Library microblaze_v8_30_a.
-Entity <DAXI_interface> compiled.
-Entity <DAXI_interface> (Architecture <IMP>) compiled.
+Architecture imp of Entity daxi_interface is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/iplb_interface.vhd" in Library microblaze_v8_30_a.
-Entity <IPLB_Interface> compiled.
-Entity <IPLB_Interface> (Architecture <IMP>) compiled.
+Architecture imp of Entity iplb_interface is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/iaxi_interface.vhd" in Library microblaze_v8_30_a.
-Entity <IAXI_Interface> compiled.
-Entity <IAXI_Interface> (Architecture <IMP>) compiled.
+Architecture imp of Entity iaxi_interface is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/debug.vhd" in Library microblaze_v8_30_a.
-Entity <Debug> compiled.
-Entity <Debug> (Architecture <IMP>) compiled.
+Architecture imp of Entity debug is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/icache.vhd" in Library microblaze_v8_30_a.
-Entity <Icache> compiled.
-Entity <Icache> (Architecture <IMP>) compiled.
+Architecture imp of Entity icache is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/dcache_wb.vhd" in Library microblaze_v8_30_a.
-Entity <DCache_wb> compiled.
-Entity <DCache_wb> (Architecture <IMP>) compiled.
+Architecture imp of Entity dcache_wb is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/dcache.vhd" in Library microblaze_v8_30_a.
-Entity <DCache> compiled.
-Entity <DCache> (Architecture <IMP>) compiled.
+Architecture imp of Entity dcache is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/exception_registers.vhd" in Library microblaze_v8_30_a.
-Entity <exception_registers> compiled.
-Entity <exception_registers> (Architecture <IMP>) compiled.
+Architecture imp of Entity exception_registers is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/instr_mux.vhd" in Library microblaze_v8_30_a.
-Entity <instr_mux> compiled.
-Entity <instr_mux> (Architecture <IMP>) compiled.
+Architecture imp of Entity instr_mux is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/decode_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Decode_gti> compiled.
-Entity <Decode_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity decode_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/data_flow_gti.vhd" in Library microblaze_v8_30_a.
-Entity <Data_Flow_gti> compiled.
-Entity <Data_Flow_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity data_flow_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/read_data_mux_gti.vhd" in Library microblaze_v8_30_a.
-Entity <read_data_mux> compiled.
-Entity <read_data_mux> (Architecture <IMP>) compiled.
+Architecture imp of Entity read_data_mux is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/dcache_gti.vhd" in Library microblaze_v8_30_a.
-Entity <DCache_gti> compiled.
-Entity <DCache_gti> (Architecture <IMP>) compiled.
+Architecture imp of Entity dcache_gti is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mmu.vhd" in Library microblaze_v8_30_a.
-Entity <MMU> compiled.
-Entity <MMU> (Architecture <IMP>) compiled.
+Architecture imp of Entity mmu is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_core.vhd" in Library microblaze_v8_30_a.
-Entity <MicroBlaze_Core> compiled.
-Entity <MicroBlaze_Core> (Architecture <IMP>) compiled.
+Architecture imp of Entity microblaze_core is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mux4.vhd" in Library microblaze_v8_30_a.
-Entity <mux4> compiled.
-Entity <mux4> (Architecture <IMP>) compiled.
+Architecture imp of Entity mux4 is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/gen_srlfifo.vhd" in Library microblaze_v8_30_a.
-Entity <srl_fifo> compiled.
-Entity <srl_fifo> (Architecture <IMP>) compiled.
+Architecture imp of Entity srl_fifo is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze.vhd" in Library microblaze_v8_30_a.
-Entity <MicroBlaze> compiled.
 WARNING:HDLParsers:3293 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze.vhd" Line 1100. Constant 'C_CORE_GENERATION_INFO' C_CORE_GENERATION_INFO is not locally static.
-Entity <MicroBlaze> (Architecture <IMP>) compiled.
+Architecture imp of Entity microblaze is up to date.
 Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_microblaze_0_wrapper.vhd" in Library work.
 Entity <system_microblaze_0_wrapper> compiled.
-Entity <system_microblaze_0_wrapper> (Architecture <STRUCTURE>) compiled.
+Entity <system_microblaze_0_wrapper> (Architecture <structure>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <system_microblaze_0_wrapper> in library <work> (architecture <STRUCTURE>).
+Analyzing hierarchy for entity <system_microblaze_0_wrapper> in library <work> (architecture <structure>).
 
-Analyzing hierarchy for entity <microblaze> in library <microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <microblaze> in library <microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -524,7 +425,7 @@ Analyzing hierarchy for entity <microblaze> in library <microblaze_v8_30_a> (arc
 	C_USE_REORDER_INSTR = 1
 	C_USE_STACK_PROTECTION = 0
 
-Analyzing hierarchy for entity <MicroBlaze_Core> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <MicroBlaze_Core> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -685,7 +586,7 @@ Analyzing hierarchy for entity <MicroBlaze_Core> in library <Microblaze_v8_30_a>
 	C_USE_REORDER_INSTR = 1
 	C_USE_STACK_PROTECTION = 0
 
-Analyzing hierarchy for entity <FSL_Module> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <FSL_Module> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_AREA_OPTIMIZED = 0
 	C_DATA_SIZE = 32
 	C_FSL_DATA_SIZE = 32
@@ -694,11 +595,11 @@ Analyzing hierarchy for entity <FSL_Module> in library <Microblaze_v8_30_a> (arc
 	C_TARGET = "virtex5"
 	C_USE_EXTENDED_FSL_INSTR = 0
 
-Analyzing hierarchy for entity <interrupt_mode_converter> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <interrupt_mode_converter> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_EDGE_IS_POSITIVE = true
 	C_INTERRUPT_IS_EDGE = false
 
-Analyzing hierarchy for entity <Decode_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Decode_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_DCACHE_WR = true
 	C_ALLOW_ICACHE_WR = true
 	C_ALLOW_LUT6 = true
@@ -743,7 +644,7 @@ Analyzing hierarchy for entity <Decode_gti> in library <Microblaze_v8_30_a> (arc
 	C_USE_SRL16 = "yes"
 	C_USE_STACK_PROTECTION = false
 
-Analyzing hierarchy for entity <Data_Flow_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Data_Flow_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -833,23 +734,23 @@ Analyzing hierarchy for entity <Data_Flow_gti> in library <Microblaze_v8_30_a> (
 	C_USE_SRL16 = "yes"
 	C_USE_STACK_PROTECTION = 0
 
-Analyzing hierarchy for entity <carry_or> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <carry_or> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <read_data_mux> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <read_data_mux> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_USE_DCACHE = false
 	C_USE_D_Ext = true
 	C_USE_D_LMB = true
 
-Analyzing hierarchy for entity <DPLB_Interface> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <DPLB_Interface> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_DELAYED_DATA_STROBE = false
 	C_DPLB_WIDTH = 32
 	C_OUTPUT_DFFS = false
 
-Analyzing hierarchy for entity <carry_and> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <carry_and> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <instr_mux> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <instr_mux> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_DEBUG_ENABLED = true
 	C_TARGET = "virtex5"
@@ -857,10 +758,10 @@ Analyzing hierarchy for entity <instr_mux> in library <Microblaze_v8_30_a> (arch
 	C_USE_I_EXT = true
 	C_USE_I_LMB = true
 
-Analyzing hierarchy for entity <IPLB_Interface> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <IPLB_Interface> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_IPLB_DWIDTH = 32
 
-Analyzing hierarchy for entity <Debug> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Debug> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_AREA_OPTIMIZED = 0
 	C_DATA_SIZE = 32
 	C_DBUS_EXCEPTION = 0
@@ -908,7 +809,7 @@ Analyzing hierarchy for entity <Debug> in library <Microblaze_v8_30_a> (architec
 	C_USE_REORDER_INSTR = 1
 	C_USE_STACK_PROTECTION = 0
 
-Analyzing hierarchy for entity <MMU> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <MMU> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_DCACHE_USE_WRITEBACK = 0
 	C_MMU_DTLB_SIZE = 4
@@ -922,7 +823,7 @@ Analyzing hierarchy for entity <MMU> in library <Microblaze_v8_30_a> (architectu
 	C_USE_LUTRAM = "yes"
 	C_USE_MMU = 0
 
-Analyzing hierarchy for entity <PC_Module_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <PC_Module_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_BTC_PARITY = false
 	C_BTC_SIZE = 0
@@ -932,7 +833,7 @@ Analyzing hierarchy for entity <PC_Module_gti> in library <Microblaze_v8_30_a> (
 	C_USE_MMU = 0
 	C_USE_SRL16 = "yes"
 
-Analyzing hierarchy for entity <PreFetch_Buffer_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <PreFetch_Buffer_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_FAULT_TOLERANT = 0
 	C_IEXT_BUS_EXCEPTION = false
@@ -940,40 +841,40 @@ Analyzing hierarchy for entity <PreFetch_Buffer_gti> in library <Microblaze_v8_3
 	C_USE_MMU = 0
 	C_USE_SRL16 = "yes"
 
-Analyzing hierarchy for entity <Jump_Logic> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Jump_Logic> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <Register_File_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Register_File_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 	C_USE_LUTRAM = "yes"
 WARNING:Xst:795 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/register_file_gti.vhd" line 132: Size of operands are different : result is <false>.
 
-Analyzing hierarchy for entity <Operand_Select_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Operand_Select_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_DYNAMIC_INTR_ADDR = false
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <ALU> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <ALU> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_AREA_OPTIMIZED = 0
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <Shift_Logic_Module_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Shift_Logic_Module_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_TARGET = "virtex5"
 	C_USE_PCMP_INSTR = true
 
-Analyzing hierarchy for entity <MUL_Unit> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <MUL_Unit> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 	C_USE_HW_MUL = true
 	C_USE_MUL64 = false
 
-Analyzing hierarchy for entity <Barrel_Shifter_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Barrel_Shifter_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_TARGET = "virtex5"
 	C_USE_BARREL = true
 
-Analyzing hierarchy for entity <WB_Mux> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <WB_Mux> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_FSL_EXCEPTION = false
 	C_MMU_TLB_READ = false
 	C_PVR = 0
@@ -984,7 +885,7 @@ Analyzing hierarchy for entity <WB_Mux> in library <Microblaze_v8_30_a> (archite
 	C_USE_MMU = 0
 	C_USE_STACK_PROTECTION = false
 
-Analyzing hierarchy for entity <Zero_Detect_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Zero_Detect_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 
 Analyzing hierarchy for entity <Byte_Doublet_Handle_gti> in library <microblaze_v8_30_a> (architecture <IMP>) with generics.
@@ -992,7 +893,7 @@ Analyzing hierarchy for entity <Byte_Doublet_Handle_gti> in library <microblaze_
 	C_TARGET = "virtex5"
 	C_USE_REORDER_INSTR = 1
 
-Analyzing hierarchy for entity <Data_Flow_Logic> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <Data_Flow_Logic> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_FSL_LINKS = 1
 	C_MAX_FSL_LINKS = 16
 	C_TARGET = "virtex5"
@@ -1008,7 +909,7 @@ Analyzing hierarchy for entity <msr_reg_gti> in library <Microblaze_v8_30_a> (ar
 	C_USE_ICACHE = false
 	C_USE_MMU = 0
 
-Analyzing hierarchy for entity <exception_registers_gti> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <exception_registers_gti> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_DETECT_DIV_OVERFLOW = true
 	C_DIV_ZERO_EXCEPTION = false
@@ -1019,13 +920,13 @@ Analyzing hierarchy for entity <exception_registers_gti> in library <Microblaze_
 	C_TARGET = "virtex5"
 	C_USE_MMU = 0
 
-Analyzing hierarchy for entity <FPU> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <FPU> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_FPU_EXCEPTION = 0
 	C_TARGET = "virtex5"
 	C_USE_FPU = 0
 	C_USE_SRL16 = "yes"
 
-Analyzing hierarchy for entity <PVR> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <PVR> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -1105,28 +1006,28 @@ Analyzing hierarchy for entity <PVR> in library <Microblaze_v8_30_a> (architectu
 	C_USE_REORDER_INSTR = 1
 	C_USE_STACK_PROTECTION = 0
 
-Analyzing hierarchy for entity <address_hit> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <address_hit> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_FIRST = true
 	C_TARGET = "virtex5"
 	No_Bits = 32
 
-Analyzing hierarchy for entity <ALU_Bit> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <ALU_Bit> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_LAST_BIT = false
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <ALU_Bit> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <ALU_Bit> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_LAST_BIT = true
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <count_leading_zeros> in library <Microblaze_v8_30_a> (architecture <IMP>).
+Analyzing hierarchy for entity <count_leading_zeros> in library <Microblaze_v8_30_a> (architecture <imp>).
 
-Analyzing hierarchy for entity <carry_equal> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <carry_equal> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_TARGET = "virtex5"
 	Size = 8
 
-Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_AB_REG = 0
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -1139,7 +1040,7 @@ Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (arc
 	C_TARGET = "virtex5"
 	C_USE_PATTERN = "NO_PATDET"
 
-Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_AB_REG = 0
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -1152,7 +1053,7 @@ Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (arc
 	C_TARGET = "virtex5"
 	C_USE_PATTERN = "NO_PATDET"
 
-Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_AB_REG = 1
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -1165,12 +1066,12 @@ Analyzing hierarchy for entity <dsp_module> in library <Microblaze_v8_30_a> (arc
 	C_TARGET = "virtex5"
 	C_USE_PATTERN = "NO_PATDET"
 
-Analyzing hierarchy for entity <WB_Mux_Bit> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <WB_Mux_Bit> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_DATA_WIDTH = 3
 	C_LUT_SIZE = 6
 	C_TARGET = "virtex5"
 
-Analyzing hierarchy for entity <mux_bus> in library <Microblaze_v8_30_a> (architecture <IMP>) with generics.
+Analyzing hierarchy for entity <mux_bus> in library <Microblaze_v8_30_a> (architecture <imp>) with generics.
 	C_ALLOW_LUT6 = true
 	C_SIZE = 32
 	C_TARGET = "virtex5"
@@ -1179,10 +1080,10 @@ Analyzing hierarchy for entity <mux_bus> in library <Microblaze_v8_30_a> (archit
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <system_microblaze_0_wrapper> in library <work> (Architecture <STRUCTURE>).
+Analyzing Entity <system_microblaze_0_wrapper> in library <work> (Architecture <structure>).
 Entity <system_microblaze_0_wrapper> analyzed. Unit <system_microblaze_0_wrapper> generated.
 
-Analyzing generic Entity <microblaze> in library <microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <microblaze> in library <microblaze_v8_30_a> (Architecture <imp>).
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -1672,7 +1573,7 @@ INFO:Xst:2679 - Register <LOCKSTEP_Out<4094>> in unit <microblaze> has a constan
 INFO:Xst:2679 - Register <LOCKSTEP_Out<4095>> in unit <microblaze> has a constant value of 0 during circuit operation. The register is replaced by logic.
 Entity <microblaze> analyzed. Unit <microblaze> generated.
 
-Analyzing generic Entity <MicroBlaze_Core> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <MicroBlaze_Core> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -1862,7 +1763,7 @@ WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mi
 WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/microblaze_core.vhd" line 9010: Unconnected output port 'Debug_data_rd_reg' of component 'Debug'.
 Entity <MicroBlaze_Core> analyzed. Unit <MicroBlaze_Core> generated.
 
-Analyzing generic Entity <FSL_Module> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <FSL_Module> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_AREA_OPTIMIZED = 0
 	C_DATA_SIZE = 32
 	C_FSL_DATA_SIZE = 32
@@ -1908,12 +1809,12 @@ WARNING:Xst:819 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mi
    <FSL_Put_Succesful>
 Entity <FSL_Module> analyzed. Unit <FSL_Module> generated.
 
-Analyzing generic Entity <interrupt_mode_converter> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <interrupt_mode_converter> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_EDGE_IS_POSITIVE = true
 	C_INTERRUPT_IS_EDGE = false
 Entity <interrupt_mode_converter> analyzed. Unit <interrupt_mode_converter> generated.
 
-Analyzing generic Entity <Decode_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Decode_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_DCACHE_WR = true
 	C_ALLOW_ICACHE_WR = true
 	C_ALLOW_LUT6 = true
@@ -2043,7 +1944,7 @@ INFO:Xst:2679 - Register <wb_Write_DCache_instr> in unit <Decode_gti> has a cons
 INFO:Xst:2679 - Register <WB_Sel_SPR_PVR> in unit <Decode_gti> has a constant value of 0 during circuit operation. The register is replaced by logic.
 Entity <Decode_gti> analyzed. Unit <Decode_gti> generated.
 
-Analyzing generic Entity <PC_Module_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <PC_Module_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_BTC_PARITY = false
 	C_BTC_SIZE = 0
@@ -2089,7 +1990,7 @@ WARNING:Xst:1610 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/m
     Set user-defined property "INIT =  0" for instance <Using_FPGA_Buffers_Mux.Instruction_Prefetch_Mux[31].Gen_Instr_DFF> in unit <PC_Module_gti>.
 Entity <PC_Module_gti> analyzed. Unit <PC_Module_gti> generated.
 
-Analyzing generic Entity <PreFetch_Buffer_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <PreFetch_Buffer_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_FAULT_TOLERANT = 0
 	C_IEXT_BUS_EXCEPTION = false
@@ -2157,11 +2058,11 @@ Analyzing generic Entity <PreFetch_Buffer_gti> in library <Microblaze_v8_30_a> (
     Set user-defined property "INIT =  0" for instance <Using_FPGA_Buffers.OF_Valid_DFF> in unit <PreFetch_Buffer_gti>.
 Entity <PreFetch_Buffer_gti> analyzed. Unit <PreFetch_Buffer_gti> generated.
 
-Analyzing generic Entity <Jump_Logic> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Jump_Logic> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 Entity <Jump_Logic> analyzed. Unit <Jump_Logic> generated.
 
-Analyzing generic Entity <Data_Flow_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Data_Flow_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -2258,7 +2159,7 @@ WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mi
 WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/data_flow_gti.vhd" line 1998: Unconnected output port 'WB_FPU_Excep' of component 'FPU'.
 Entity <Data_Flow_gti> analyzed. Unit <Data_Flow_gti> generated.
 
-Analyzing generic Entity <Register_File_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Register_File_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 	C_USE_LUTRAM = "yes"
     Set property "ram_extract = yes" for signal <Reg_File>.
@@ -2329,26 +2230,26 @@ Analyzing generic Entity <Register_File_gti> in library <Microblaze_v8_30_a> (Ar
 WARNING:Xst:795 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/register_file_gti.vhd" line 227: Size of operands are different : result is <false>.
 Entity <Register_File_gti> analyzed. Unit <Register_File_gti> generated.
 
-Analyzing generic Entity <Operand_Select_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Operand_Select_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_DYNAMIC_INTR_ADDR = false
 	C_TARGET = "virtex5"
 Entity <Operand_Select_gti> analyzed. Unit <Operand_Select_gti> generated.
 
-Analyzing generic Entity <ALU> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <ALU> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_AREA_OPTIMIZED = 0
 	C_TARGET = "virtex5"
 Entity <ALU> analyzed. Unit <ALU> generated.
 
-Analyzing generic Entity <ALU_Bit.1> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <ALU_Bit.1> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_LAST_BIT = false
 	C_TARGET = "virtex5"
     Set user-defined property "INIT =  607AA67800008888" for instance <Using_FPGA_LUT6.Not_Last_Bit.I_ALU_LUT_V5> in unit <ALU_Bit.1>.
 Entity <ALU_Bit.1> analyzed. Unit <ALU_Bit.1> generated.
 
-Analyzing generic Entity <ALU_Bit.2> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <ALU_Bit.2> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_LAST_BIT = true
 	C_TARGET = "virtex5"
@@ -2356,7 +2257,7 @@ Analyzing generic Entity <ALU_Bit.2> in library <Microblaze_v8_30_a> (Architectu
     Set user-defined property "INIT =  FA0A" for instance <Using_FPGA_LUT6.Last_Bit.I_ALU_LUT_2> in unit <ALU_Bit.2>.
 Entity <ALU_Bit.2> analyzed. Unit <ALU_Bit.2> generated.
 
-Analyzing generic Entity <Shift_Logic_Module_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Shift_Logic_Module_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_TARGET = "virtex5"
 	C_USE_PCMP_INSTR = true
@@ -2401,15 +2302,15 @@ Analyzing generic Entity <Shift_Logic_Module_gti> in library <Microblaze_v8_30_a
     Set user-defined property "INIT =  7FFF8000FF0CFF0C" for instance <Use_PCMP_instr.Using_FPGA_PCMP.Using_FPGA_LUT6.I_PCMP_LUT6_31> in unit <Shift_Logic_Module_gti>.
 Entity <Shift_Logic_Module_gti> analyzed. Unit <Shift_Logic_Module_gti> generated.
 
-Analyzing Entity <count_leading_zeros> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing Entity <count_leading_zeros> in library <Microblaze_v8_30_a> (Architecture <imp>).
 Entity <count_leading_zeros> analyzed. Unit <count_leading_zeros> generated.
 
-Analyzing generic Entity <carry_equal> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <carry_equal> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 	Size = 8
 Entity <carry_equal> analyzed. Unit <carry_equal> generated.
 
-Analyzing generic Entity <MUL_Unit> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <MUL_Unit> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 	C_USE_HW_MUL = true
 	C_USE_MUL64 = false
@@ -2419,7 +2320,7 @@ WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mi
 WARNING:Xst:753 - "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/hdl/vhdl/mul_unit.vhd" line 720: Unconnected output port 'DETECT' of component 'dsp_module'.
 Entity <MUL_Unit> analyzed. Unit <MUL_Unit> generated.
 
-Analyzing generic Entity <dsp_module.1> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <dsp_module.1> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_AB_REG = 0
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -2458,7 +2359,7 @@ Analyzing generic Entity <dsp_module.1> in library <Microblaze_v8_30_a> (Archite
     Set user-defined property "USE_SIMD =  ONE48" for instance <Using_DSP48E.DSP48E_I1> in unit <dsp_module.1>.
 Entity <dsp_module.1> analyzed. Unit <dsp_module.1> generated.
 
-Analyzing generic Entity <dsp_module.2> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <dsp_module.2> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_AB_REG = 0
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -2497,7 +2398,7 @@ Analyzing generic Entity <dsp_module.2> in library <Microblaze_v8_30_a> (Archite
     Set user-defined property "USE_SIMD =  ONE48" for instance <Using_DSP48E.DSP48E_I1> in unit <dsp_module.2>.
 Entity <dsp_module.2> analyzed. Unit <dsp_module.2> generated.
 
-Analyzing generic Entity <dsp_module.3> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <dsp_module.3> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_AB_REG = 1
 	C_A_WIDTH = 18
 	C_B_WIDTH = 18
@@ -2536,13 +2437,13 @@ Analyzing generic Entity <dsp_module.3> in library <Microblaze_v8_30_a> (Archite
     Set user-defined property "USE_SIMD =  ONE48" for instance <Using_DSP48E.DSP48E_I1> in unit <dsp_module.3>.
 Entity <dsp_module.3> analyzed. Unit <dsp_module.3> generated.
 
-Analyzing generic Entity <Barrel_Shifter_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Barrel_Shifter_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_TARGET = "virtex5"
 	C_USE_BARREL = true
 Entity <Barrel_Shifter_gti> analyzed. Unit <Barrel_Shifter_gti> generated.
 
-Analyzing generic Entity <WB_Mux> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <WB_Mux> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_FSL_EXCEPTION = false
 	C_MMU_TLB_READ = false
 	C_PVR = 0
@@ -2554,14 +2455,14 @@ Analyzing generic Entity <WB_Mux> in library <Microblaze_v8_30_a> (Architecture 
 	C_USE_STACK_PROTECTION = false
 Entity <WB_Mux> analyzed. Unit <WB_Mux> generated.
 
-Analyzing generic Entity <WB_Mux_Bit> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <WB_Mux_Bit> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_DATA_WIDTH = 3
 	C_LUT_SIZE = 6
 	C_TARGET = "virtex5"
     Set property "BELTYPE = LUT" for signal <wb_fwd_i>.
 Entity <WB_Mux_Bit> analyzed. Unit <WB_Mux_Bit> generated.
 
-Analyzing generic Entity <Zero_Detect_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Zero_Detect_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 Entity <Zero_Detect_gti> analyzed. Unit <Zero_Detect_gti> generated.
 
@@ -2571,7 +2472,7 @@ Analyzing generic Entity <Byte_Doublet_Handle_gti> in library <microblaze_v8_30_
 	C_USE_REORDER_INSTR = 1
 Entity <Byte_Doublet_Handle_gti> analyzed. Unit <Byte_Doublet_Handle_gti> generated.
 
-Analyzing generic Entity <Data_Flow_Logic> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Data_Flow_Logic> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_FSL_LINKS = 1
 	C_MAX_FSL_LINKS = 16
 	C_TARGET = "virtex5"
@@ -2666,7 +2567,7 @@ Analyzing generic Entity <msr_reg_gti> in library <Microblaze_v8_30_a> (Architec
     Set user-defined property "INIT =  0" for instance <Using_FPGA_2.MSR_Bits[31].Using_FDR.MSR_of_I> in unit <msr_reg_gti>.
 Entity <msr_reg_gti> analyzed. Unit <msr_reg_gti> generated.
 
-Analyzing generic Entity <exception_registers_gti> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <exception_registers_gti> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_DETECT_DIV_OVERFLOW = true
 	C_DIV_ZERO_EXCEPTION = false
@@ -2744,7 +2645,7 @@ Analyzing generic Entity <exception_registers_gti> in library <Microblaze_v8_30_
 INFO:Xst:2679 - Register <WB_ESR_i<27>> in unit <exception_registers_gti> has a constant value of 0 during circuit operation. The register is replaced by logic.
 Entity <exception_registers_gti> analyzed. Unit <exception_registers_gti> generated.
 
-Analyzing generic Entity <mux_bus> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <mux_bus> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_SIZE = 32
 	C_TARGET = "virtex5"
@@ -2766,14 +2667,14 @@ Analyzing generic Entity <mux_bus> in library <Microblaze_v8_30_a> (Architecture
     Set user-defined property "INIT =  FF00F0F0CCCCAAAA" for instance <Use_LUT6.Mux_Loop[15].I_MUX_LUT6> in unit <mux_bus>.
 Entity <mux_bus> analyzed. Unit <mux_bus> generated.
 
-Analyzing generic Entity <FPU> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <FPU> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_FPU_EXCEPTION = 0
 	C_TARGET = "virtex5"
 	C_USE_FPU = 0
 	C_USE_SRL16 = "yes"
 Entity <FPU> analyzed. Unit <FPU> generated.
 
-Analyzing generic Entity <PVR> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <PVR> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ADDR_TAG_BITS = 0
 	C_ALLOW_DCACHE_WR = 1
 	C_ALLOW_ICACHE_WR = 1
@@ -2854,27 +2755,27 @@ Analyzing generic Entity <PVR> in library <Microblaze_v8_30_a> (Architecture <IM
 	C_USE_STACK_PROTECTION = 0
 Entity <PVR> analyzed. Unit <PVR> generated.
 
-Analyzing generic Entity <carry_or> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <carry_or> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 Entity <carry_or> analyzed. Unit <carry_or> generated.
 
-Analyzing generic Entity <read_data_mux> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <read_data_mux> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_USE_DCACHE = false
 	C_USE_D_Ext = true
 	C_USE_D_LMB = true
 Entity <read_data_mux> analyzed. Unit <read_data_mux> generated.
 
-Analyzing generic Entity <DPLB_Interface> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <DPLB_Interface> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_DELAYED_DATA_STROBE = false
 	C_DPLB_WIDTH = 32
 	C_OUTPUT_DFFS = false
 Entity <DPLB_Interface> analyzed. Unit <DPLB_Interface> generated.
 
-Analyzing generic Entity <carry_and> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <carry_and> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_TARGET = "virtex5"
 Entity <carry_and> analyzed. Unit <carry_and> generated.
 
-Analyzing generic Entity <instr_mux> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <instr_mux> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_DEBUG_ENABLED = true
 	C_TARGET = "virtex5"
@@ -2883,11 +2784,11 @@ Analyzing generic Entity <instr_mux> in library <Microblaze_v8_30_a> (Architectu
 	C_USE_I_LMB = true
 Entity <instr_mux> analyzed. Unit <instr_mux> generated.
 
-Analyzing generic Entity <IPLB_Interface> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <IPLB_Interface> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_IPLB_DWIDTH = 32
 Entity <IPLB_Interface> analyzed. Unit <IPLB_Interface> generated.
 
-Analyzing generic Entity <Debug> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <Debug> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_AREA_OPTIMIZED = 0
 	C_DATA_SIZE = 32
 	C_DBUS_EXCEPTION = 0
@@ -2971,7 +2872,7 @@ INFO:Xst:2679 - Register <dbg_hit<15>> in unit <Debug> has a constant value of 0
 INFO:Xst:2679 - Register <stack_violation_occurance_1> in unit <Debug> has a constant value of 0 during circuit operation. The register is replaced by logic.
 Entity <Debug> analyzed. Unit <Debug> generated.
 
-Analyzing generic Entity <address_hit> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <address_hit> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_FIRST = true
 	C_TARGET = "virtex5"
 	No_Bits = 32
@@ -2985,7 +2886,7 @@ Analyzing generic Entity <address_hit> in library <Microblaze_v8_30_a> (Architec
     Set user-defined property "INIT =  0000" for instance <Using_FPGA.Compare[0].SRLC16E_I> in unit <address_hit>.
 Entity <address_hit> analyzed. Unit <address_hit> generated.
 
-Analyzing generic Entity <MMU> in library <Microblaze_v8_30_a> (Architecture <IMP>).
+Analyzing generic Entity <MMU> in library <Microblaze_v8_30_a> (Architecture <imp>).
 	C_ALLOW_LUT6 = true
 	C_DCACHE_USE_WRITEBACK = 0
 	C_MMU_DTLB_SIZE = 4
@@ -8686,13 +8587,13 @@ Delay:               2.339ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 804.00 secs
-Total CPU time to Xst completion: 800.15 secs
+Total REAL time to Xst completion: 820.00 secs
+Total CPU time to Xst completion: 817.14 secs
  
 --> 
 
 
-Total memory usage is 948132 kilobytes
+Total memory usage is 949040 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 4590 (   0 filtered)

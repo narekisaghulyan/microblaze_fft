@@ -51,12 +51,13 @@
 //----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
 xfft_v7_1 your_instance_name (
   .clk(clk), // input clk
+  .ce(ce), // input ce
   .start(start), // input start
   .xn_re(xn_re), // input [15 : 0] xn_re
   .xn_im(xn_im), // input [15 : 0] xn_im
   .fwd_inv(fwd_inv), // input fwd_inv
   .fwd_inv_we(fwd_inv_we), // input fwd_inv_we
-  .scale_sch(scale_sch), // input [9 : 0] scale_sch
+  .scale_sch(scale_sch), // input [19 : 0] scale_sch
   .scale_sch_we(scale_sch_we), // input scale_sch_we
   .rfd(rfd), // output rfd
   .xn_index(xn_index), // output [9 : 0] xn_index

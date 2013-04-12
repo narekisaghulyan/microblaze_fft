@@ -42,6 +42,15 @@ rapper.ngc"...
 Loading design module
 "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/implementation/system_proc_sy
 s_reset_0_wrapper.ngc"...
+Loading design module
+"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/implementation/system_fft_cop
+rocessor_0_to_microblaze_0_wrapper.ngc"...
+Loading design module
+"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/implementation/system_fft_cop
+rocessor_0_wrapper.ngc"...
+Loading design module
+"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/implementation/system_microbl
+aze_0_to_fft_coprocessor_0_wrapper.ngc"...
 Gathering constraint information from source properties...
 Done.
 
@@ -61,6 +70,105 @@ Done...
 Processing BMM file "system.bmm" ...
 
 Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032c' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032d' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032e' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032f' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000330' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000331' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000342' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000343' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035c' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035d' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035e' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035f' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000360' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000361' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000372' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000373' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038c' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038d' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038e' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038f' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000390' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000391' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003a2' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003a3' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bc' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bd' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003be' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bf' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003c0' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003c1' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003d2' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003d3' has unconnected
+   output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000681' has unconnected
+   output pin
 
 Partition Implementation Status
 -------------------------------
@@ -71,12 +179,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings:   0
+  Number of warnings:  33
 
-Total memory usage is 542048 kilobytes
+Total memory usage is 556008 kilobytes
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  58 sec
-Total CPU time to NGDBUILD completion:   57 sec
+Total REAL time to NGDBUILD completion: 1 min  2 sec
+Total CPU time to NGDBUILD completion:  1 min  2 sec
 
 Writing NGDBUILD log file "system.bld"...

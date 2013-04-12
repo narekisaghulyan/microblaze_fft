@@ -6,4 +6,4 @@ created new Xilinx C Project (workspace/*)
 in XPS, downloaded bitstream
 in SDK, Program FPGA -- success on hello world project
 in XPS, create new peripheral
-
+in ISE, open fft_coprocessor.xise and implement fft

@@ -1,7 +1,7 @@
 Release 14.1 par P.15xf (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-p380-35.EECS.Berkeley.EDU::  Tue Apr 09 17:51:36 2013
+p380-37.EECS.Berkeley.EDU::  Fri Apr 12 17:32:52 2013
 
 par -w -ol high system_map.ncd system.ncd system.pcf 
 
@@ -36,58 +36,60 @@ Device Utilization Summary:
 
    Number of BSCANs                          1 out of 4      25%
    Number of BUFGs                           2 out of 32      6%
-   Number of DSP48Es                         3 out of 64      4%
+   Number of DSP48Es                         6 out of 64      9%
    Number of ILOGICs                         2 out of 800     1%
    Number of External IOBs                   4 out of 640     1%
       Number of LOCed IOBs                   4 out of 4     100%
 
    Number of OLOGICs                         1 out of 800     1%
    Number of PLL_ADVs                        1 out of 6      16%
+   Number of RAMB18X2s                       1 out of 148     1%
+   Number of RAMB18X2SDPs                    2 out of 148     1%
    Number of RAMB36_EXPs                    16 out of 148    10%
-   Number of Slices                        957 out of 17280   5%
-   Number of Slice Registers              1527 out of 69120   2%
-      Number used as Flip Flops           1510
+   Number of Slices                       1341 out of 17280   7%
+   Number of Slice Registers              2546 out of 69120   3%
+      Number used as Flip Flops           2532
       Number used as Latches                 0
-      Number used as LatchThrus             17
+      Number used as LatchThrus             14
 
-   Number of Slice LUTS                   1853 out of 69120   2%
-   Number of Slice LUT-Flip Flop pairs    2539 out of 69120   3%
+   Number of Slice LUTS                   2844 out of 69120   4%
+   Number of Slice LUT-Flip Flop pairs    3693 out of 69120   5%
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 28 secs 
-Finished initial Timing Analysis.  REAL time: 28 secs 
+Starting initial Timing Analysis.  REAL time: 32 secs 
+Finished initial Timing Analysis.  REAL time: 32 secs 
 
 WARNING:Par:288 - The signal dlmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal dlmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 13472 unrouted;      REAL time: 32 secs 
+Phase  1  : 19856 unrouted;      REAL time: 36 secs 
 
-Phase  2  : 11482 unrouted;      REAL time: 34 secs 
+Phase  2  : 16117 unrouted;      REAL time: 39 secs 
 
-Phase  3  : 4313 unrouted;      REAL time: 42 secs 
+Phase  3  : 5870 unrouted;      REAL time: 52 secs 
 
-Phase  4  : 4313 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 55 secs 
+Phase  4  : 5870 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 25 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 8 secs 
-Total REAL time to Router completion: 1 mins 8 secs 
-Total CPU time to Router completion: 1 mins 9 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 30 secs 
+Total REAL time to Router completion: 1 mins 30 secs 
+Total CPU time to Router completion: 1 mins 32 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -105,11 +107,11 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|      clk_50_0000MHz | BUFGCTRL_X0Y0| No   |  707 |  0.561     |  2.204      |
+|      clk_50_0000MHz | BUFGCTRL_X0Y0| No   | 1100 |  0.595     |  2.126      |
 +---------------------+--------------+------+------+------------+-------------+
-|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y31| No   |   70 |  0.510     |  2.050      |
+|     mdm_0/Dbg_Clk_1 |BUFGCTRL_X0Y31| No   |   71 |  0.326     |  1.857      |
 +---------------------+--------------+------+------+------------+-------------+
-|  mdm_0/Dbg_Update_1 |         Local|      |   21 |  1.494     |  3.203      |
+|  mdm_0/Dbg_Update_1 |         Local|      |   21 |  1.113     |  2.599      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -134,8 +136,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.000ns|     4.000ns|       0|           0
   pin" 100 MHz HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     9.833ns|    10.167ns|       0|           0
-  G_PLL0_CLKOUT0 = PERIOD TIMEGRP         " | HOLD        |     0.285ns|            |       0|           0
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     9.801ns|    10.199ns|       0|           0
+  G_PLL0_CLKOUT0 = PERIOD TIMEGRP         " | HOLD        |     0.155ns|            |       0|           0
   clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
   LL0_CLKOUT0" TS_sys_clk_pin         * 0.5 |             |            |            |        |            
    HIGH 50%                                 |             |            |            |        |            
@@ -152,8 +154,8 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      5.083ns|            0|            0|            0|       347649|
-| TS_clock_generator_0_clock_gen|     20.000ns|     10.167ns|          N/A|            0|            0|       347649|            0|
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      5.099ns|            0|            0|            0|       376776|
+| TS_clock_generator_0_clock_gen|     20.000ns|     10.199ns|          N/A|            0|            0|       376776|            0|
 | erator_0_SIG_PLL0_CLKOUT0     |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -166,10 +168,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 2 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 20 secs 
-Total CPU time to PAR completion: 1 mins 21 secs 
+Total REAL time to PAR completion: 1 mins 43 secs 
+Total CPU time to PAR completion: 1 mins 46 secs 
 
-Peak Memory Usage:  917 MB
+Peak Memory Usage:  934 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

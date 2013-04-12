@@ -1,0 +1,8 @@
+V3 5
+FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd 2013/04/12.16:02:49 P.15xf
+EN lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate 1365797206 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd \
+      PB ieee/std_logic_1164 1335251622 LB UNISIM PH unisim/VCOMPONENTS 1335251629
+AR lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate/STRUCTURE 1365797207 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd \
+      EN lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate 1365797206 CP RAMB36

@@ -1,0 +1,33 @@
+
+**** Build of configuration Debug for project fft_test_0 ****
+
+make all 
+Building file: ../src/fft_test0.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../fft_test_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -MMD -MP -MF"src/fft_test0.d" -MT"src/fft_test0.d" -o"src/fft_test0.o" "../src/fft_test0.c"
+Finished building: ../src/fft_test0.c
+ 
+Building target: fft_test_0.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -L../../fft_test_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -o"fft_test_0.elf"  ./src/fft_test0.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: fft_test_0.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size fft_test_0.elf  |tee "fft_test_0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2714	    292	   2098	   5104	   13f0	fft_test_0.elf
+Finished building: fft_test_0.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck fft_test_0.elf -hw ../../microblaze_fft_hw_platform/system.xml -pe microblaze_0  |tee "fft_test_0.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.1 Build EDK_P.15xf
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../microblaze_fft_hw_platform/system.xml -pe
+microblaze_0 fft_test_0.elf 
+
+ELF file	: fft_test_0.elf
+elfcheck passed.
+Finished building: fft_test_0.elf.elfcheck
+ 

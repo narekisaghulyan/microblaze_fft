@@ -81,7 +81,7 @@
 //----------------------------------------
 //`include "../../../../xfft_v7_1.v"
 
-module fft_coprocessor 
+    module fft_coprocessor 
 	(
 		// ADD USER PORTS BELOW THIS LINE 
 		// -- USER ports added here 
@@ -165,6 +165,7 @@ input                                     FSL_M_Full;
    // regs are inputs to fft;
    // wires are outputs from fft
    wire fft_clk;
+   reg fft_ce;
    reg fft_start;
    `define fft_fwd_inv 1
    `define fft_fwd_inv_we 0
@@ -184,6 +185,28 @@ input                                     FSL_M_Full;
 
     xfft_v7_1 my_fft (
       .clk(fft_clk), // input clk
+      .ce(fft_ce), // input ce
+      .start(fft_start), // input start
+      .xn_re(fft_xn_re), // input [15 : 0] xn_re
+      .xn_im(fft_xn_im), // input [15 : 0] xn_im
+      .fwd_inv(fft_fwd_inv), // input fwd_inv
+      .fwd_inv_we(fft_fwd_inv_we), // input fwd_inv_we
+      .scale_sch(fft_scale_sch), // input [19 : 0] scale_sch
+      .scale_sch_we(fft_scale_sch_we), // input scale_sch_we
+      .rfd(fft_rfd), // output rfd
+      .xn_index(fft_xn_index), // output [9 : 0] xn_index
+      .busy(fft_busy), // output busy
+      .edone(fft_edone), // output edone
+      .done(fft_done), // output done
+      .dv(fft_dv), // output dv
+      .xk_index(fft_xk_index), // output [9 : 0] xk_index
+      .xk_re(fft_xk_re), // output [15 : 0] xk_re
+      .xk_im(fft_xk_im) // output [15 : 0] xk_im
+    );
+/*
+    xfft_v7_1 my_fft (
+      .clk(fft_clk), // input clk
+      .ce(fft_ce),   // input ce
       .start(fft_start), // input start
       .xn_re(fft_xn_re), // input [15 : 0] xn_re
       .xn_im(fft_xn_im), // input [15 : 0] xn_im
@@ -201,7 +224,7 @@ input                                     FSL_M_Full;
       .xk_re(fft_xk_re), // output [15 : 0] xk_re
       .xk_im(fft_xk_im) // output [15 : 0] xk_im
     );
-
+*/
    // CAUTION:
    // The sequence in which data are read in should be
    // consistent with the sequence they are written in the
@@ -211,12 +234,6 @@ input                                     FSL_M_Full;
    assign FSL_M_Write = (state == Write_Outputs) ? ~FSL_M_Full : 0;
 
    //assign FSL_M_Data = sum;
-   
-   
-   // fft continuous assignments
-   reg fft_ce;
-   assign fft_clk = FSL_Clk && fft_ce;
-
 
    // fft module timing is on page 29, figure 10, "LogiCORE IP Fast Fourier Transform v7.1"
    

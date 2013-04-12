@@ -60,37 +60,33 @@ Cores Search Directories           : {./}
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd" in Library clock_generator_v4_03_a.
-Entity <dcm_module> compiled.
-Entity <dcm_module> (Architecture <STRUCT>) compiled.
+Architecture struct of Entity dcm_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd" in Library clock_generator_v4_03_a.
-Entity <pll_module> compiled.
-Entity <pll_module> (Architecture <STRUCT>) compiled.
+Architecture struct of Entity pll_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd" in Library clock_generator_v4_03_a.
-Entity <mmcm_module> compiled.
-Entity <mmcm_module> (Architecture <STRUCT>) compiled.
+Architecture struct of Entity mmcm_module is up to date.
 Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd" in Library clock_generator_v4_03_a.
-Entity <plle2_module> compiled.
-Entity <plle2_module> (Architecture <STRUCT>) compiled.
+Architecture struct of Entity plle2_module is up to date.
 Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
 Entity <clock_generator> compiled.
-Entity <clock_generator> (Architecture <STRUCTURE>) compiled.
+Entity <clock_generator> (Architecture <structure>) compiled.
 Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
 Entity <system_clock_generator_0_wrapper> compiled.
-Entity <system_clock_generator_0_wrapper> (Architecture <STRUCTURE>) compiled.
+Entity <system_clock_generator_0_wrapper> (Architecture <structure>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <system_clock_generator_0_wrapper> in library <work> (architecture <STRUCTURE>).
+Analyzing hierarchy for entity <system_clock_generator_0_wrapper> in library <work> (architecture <structure>).
 
-Analyzing hierarchy for entity <clock_generator> in library <clock_generator_0_v4_03_a> (architecture <STRUCTURE>) with generics.
+Analyzing hierarchy for entity <clock_generator> in library <clock_generator_0_v4_03_a> (architecture <structure>) with generics.
 	C_CLK_GEN = "PASSED"
 	C_DEVICE = "5vlx110t"
 	C_FAMILY = "virtex5"
 	C_PACKAGE = "ff1136"
 	C_SPEEDGRADE = "-1"
 
-Analyzing hierarchy for entity <pll_module> in library <clock_generator_v4_03_a> (architecture <STRUCT>) with generics.
+Analyzing hierarchy for entity <pll_module> in library <clock_generator_v4_03_a> (architecture <struct>) with generics.
 	C_BANDWIDTH = "OPTIMIZED"
 	C_CLKFBOUT_BUF = false
 	C_CLKFBOUT_DESKEW_ADJUST = "NONE"
@@ -140,10 +136,10 @@ Analyzing hierarchy for entity <pll_module> in library <clock_generator_v4_03_a>
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <system_clock_generator_0_wrapper> in library <work> (Architecture <STRUCTURE>).
+Analyzing Entity <system_clock_generator_0_wrapper> in library <work> (Architecture <structure>).
 Entity <system_clock_generator_0_wrapper> analyzed. Unit <system_clock_generator_0_wrapper> generated.
 
-Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a> (Architecture <STRUCTURE>).
+Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a> (Architecture <structure>).
 	C_CLK_GEN = "PASSED"
 	C_DEVICE = "5vlx110t"
 	C_FAMILY = "virtex5"
@@ -151,7 +147,7 @@ Analyzing generic Entity <clock_generator> in library <clock_generator_0_v4_03_a
 	C_SPEEDGRADE = "-1"
 Entity <clock_generator> analyzed. Unit <clock_generator> generated.
 
-Analyzing generic Entity <pll_module> in library <clock_generator_v4_03_a> (Architecture <STRUCT>).
+Analyzing generic Entity <pll_module> in library <clock_generator_v4_03_a> (Architecture <struct>).
 	C_BANDWIDTH = "OPTIMIZED"
 	C_CLKFBOUT_BUF = false
 	C_CLKFBOUT_DESKEW_ADJUST = "NONE"
@@ -434,13 +430,13 @@ Delay:               0.238ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 27.00 secs
-Total CPU time to Xst completion: 25.09 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.90 secs
  
 --> 
 
 
-Total memory usage is 683316 kilobytes
+Total memory usage is 683400 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   24 (   0 filtered)

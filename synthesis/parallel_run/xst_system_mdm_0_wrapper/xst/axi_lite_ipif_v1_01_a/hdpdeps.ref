@@ -1,0 +1,39 @@
+V3 16
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd 2012/04/24.05:01:51 P.15xf
+EN axi_lite_ipif_v1_01_a/address_decoder 1365797555 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 \
+      LB proc_common_v3_00_a PB proc_common_v3_00_a/proc_common_pkg 1365797437 \
+      EN proc_common_v3_00_a/pselect_f 1365797549 PB proc_common_v3_00_a/ipif_pkg 1365797552 \
+      PB proc_common_v3_00_a/family_support 1365797435
+AR axi_lite_ipif_v1_01_a/address_decoder/IMP 1365797556 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd \
+      EN axi_lite_ipif_v1_01_a/address_decoder 1365797555 CP integer \
+      CP std_logic_vector CP proc_common_v3_00_a/pselect_f
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd 2012/04/24.05:01:51 P.15xf
+EN axi_lite_ipif_v1_01_a/axi_lite_ipif 1365797561 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625 \
+      PB ieee/NUMERIC_STD 1335251627 PB ieee/std_logic_misc 1335251624 \
+      LB proc_common_v3_00_a LB axi_lite_ipif_v1_01_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1365797437 \
+      PB proc_common_v3_00_a/family_support 1365797435 \
+      PB proc_common_v3_00_a/ipif_pkg 1365797552
+AR axi_lite_ipif_v1_01_a/axi_lite_ipif/imp 1365797562 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd \
+      EN axi_lite_ipif_v1_01_a/axi_lite_ipif 1365797561 \
+      CP axi_lite_ipif_v1_01_a/slave_attachment
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd 2012/04/24.05:01:51 P.15xf
+EN axi_lite_ipif_v1_01_a/slave_attachment 1365797559 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 PB ieee/std_logic_misc 1335251624 \
+      LB proc_common_v3_00_a LB axi_lite_ipif_v1_01_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1365797437 \
+      PB proc_common_v3_00_a/ipif_pkg 1365797552 \
+      PB proc_common_v3_00_a/family_support 1365797435 \
+      EN proc_common_v3_00_a/counter_f 1365797543
+AR axi_lite_ipif_v1_01_a/slave_attachment/imp 1365797560 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd \
+      EN axi_lite_ipif_v1_01_a/slave_attachment 1365797559 \
+      CP axi_lite_ipif_v1_01_a/address_decoder CP integer CP std_logic_vector

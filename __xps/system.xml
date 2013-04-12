@@ -1,5 +1,4 @@
-
-<EDKSYSTEM EDKVERSION="14.1" EDWVERSION="1.2" TIMESTAMP="Thu Apr 11 18:42:15 2013">
+<EDKSYSTEM EDKVERSION="14.1" EDWVERSION="1.2" TIMESTAMP="Fri Apr 12 16:01:53 2013">
 
   <SYSTEMINFO ARCH="virtex5" DEVICE="xc5vlx110t" PACKAGE="ff1136" PART="xc5vlx110tff1136-1" SOURCE="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.xmp" SPEEDGRADE="-1"/>
 
@@ -4539,7 +4538,7 @@
             <CONNECTION BUSINTERFACE="[SPLB]" INSTANCE="mdm_0" PORT="SPLB_Clk"/>
             <CONNECTION INSTANCE="proc_sys_reset_0" PORT="Slowest_sync_clk"/>
             <CONNECTION INSTANCE="fft_coprocessor_0_to_microblaze_0" PORT="FSL_Clk"/>
-            <CONNECTION BUSINTERFACE="[MFSL:SFSL]" INSTANCE="fft_coprocessor_0" PORT="FSL_Clk"/>
+            <CONNECTION BUSINTERFACE="[SFSL:MFSL]" INSTANCE="fft_coprocessor_0" PORT="FSL_Clk"/>
             <CONNECTION INSTANCE="microblaze_0_to_fft_coprocessor_0" PORT="FSL_Clk"/>
           </CONNECTIONS>
         </PORT>
@@ -5293,9 +5292,7 @@
           </CONNECTIONS>
         </PORT>
         <PORT DEF_SIGNAME="fft_coprocessor_0_to_microblaze_0_LMB_Rst" DIR="O" MPD_INDEX="2" NAME="FSL_Rst" SIGNAME="fft_coprocessor_0_to_microblaze_0_LMB_Rst">
-          <CONNECTIONS>
-            <CONNECTION BUSINTERFACE="[MFSL:SFSL]" INSTANCE="fft_coprocessor_0" PORT="FSL_Rst"/>
-          </CONNECTIONS>
+          <CONNECTIONS/>
         </PORT>
         <PORT DIR="I" MPD_INDEX="3" NAME="FSL_M_Clk" SIGNAME="__NOC__"/>
         <PORT DEF_SIGNAME="fft_coprocessor_0_to_microblaze_0_FSL_M_Data" DIR="I" ENDIAN="BIG" LEFT="0" LSB="31" MPD_INDEX="4" MSB="0" NAME="FSL_M_Data" RIGHT="31" SIGNAME="fft_coprocessor_0_to_microblaze_0_FSL_M_Data" VECFORMULA="[0:C_FSL_DWIDTH-1]">
@@ -5345,19 +5342,17 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE HWVERSION="1.00.a" INSTANCE="fft_coprocessor_0" IPTYPE="PERIPHERAL" MHS_INDEX="12" MODCLASS="PERIPHERAL" MODTYPE="fft_coprocessor">
+    <MODULE HWVERSION="1.02.a" INSTANCE="fft_coprocessor_0" IPTYPE="PERIPHERAL" MHS_INDEX="12" MODCLASS="PERIPHERAL" MODTYPE="fft_coprocessor">
       <LICENSEINFO ICON_NAME="ps_core_local"/>
       <PARAMETERS/>
       <PORTS>
-        <PORT BUS="MFSL:SFSL" CLKFREQUENCY="50000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="0" NAME="FSL_Clk" SIGIS="CLK" SIGNAME="clk_50_0000MHz">
+        <PORT BUS="SFSL:MFSL" CLKFREQUENCY="50000000" DEF_SIGNAME="__BUS__" DIR="I" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="0" NAME="FSL_Clk" SIGIS="CLK" SIGNAME="clk_50_0000MHz">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clock_generator_0" PORT="CLKOUT0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT BUS="MFSL:SFSL" DEF_SIGNAME="fft_coprocessor_0_to_microblaze_0_LMB_Rst" DIR="I" MPD_INDEX="1" NAME="FSL_Rst" SIGIS="RST" SIGNAME="fft_coprocessor_0_to_microblaze_0_LMB_Rst">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="fft_coprocessor_0_to_microblaze_0" PORT="FSL_Rst"/>
-          </CONNECTIONS>
+        <PORT BUS="SFSL:MFSL" DEF_SIGNAME="microblaze_0_to_fft_coprocessor_0_OPB_Rst" DIR="I" MPD_INDEX="1" NAME="FSL_Rst" SIGIS="RST" SIGNAME="microblaze_0_to_fft_coprocessor_0_OPB_Rst">
+          <CONNECTIONS/>
         </PORT>
         <PORT BUS="SFSL" DEF_SIGNAME="microblaze_0_to_fft_coprocessor_0_FSL_S_Clk" DIR="I" MPD_INDEX="2" NAME="FSL_S_Clk" SIGIS="CLK" SIGNAME="microblaze_0_to_fft_coprocessor_0_FSL_S_Clk">
           <CONNECTIONS/>
@@ -5407,17 +5402,6 @@
         </PORT>
       </PORTS>
       <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="fft_coprocessor_0_to_microblaze_0" BUSSTD="FSL" BUSSTD_PSF="FSL" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="1" NAME="MFSL" TYPE="MASTER">
-          <PORTMAPS>
-            <PORTMAP DIR="I" PHYSICAL="FSL_Clk"/>
-            <PORTMAP DIR="I" PHYSICAL="FSL_Rst"/>
-            <PORTMAP DIR="I" PHYSICAL="FSL_M_Clk"/>
-            <PORTMAP DIR="O" PHYSICAL="FSL_M_Write"/>
-            <PORTMAP DIR="O" PHYSICAL="FSL_M_Data"/>
-            <PORTMAP DIR="O" PHYSICAL="FSL_M_Control"/>
-            <PORTMAP DIR="I" PHYSICAL="FSL_M_Full"/>
-          </PORTMAPS>
-        </BUSINTERFACE>
         <BUSINTERFACE BUSNAME="microblaze_0_to_fft_coprocessor_0" BUSSTD="FSL" BUSSTD_PSF="FSL" IS_INSTANTIATED="TRUE" MHS_INDEX="1" MPD_INDEX="0" NAME="SFSL" TYPE="SLAVE">
           <PORTMAPS>
             <PORTMAP DIR="I" PHYSICAL="FSL_Clk"/>
@@ -5427,6 +5411,17 @@
             <PORTMAP DIR="I" PHYSICAL="FSL_S_Data"/>
             <PORTMAP DIR="I" PHYSICAL="FSL_S_Control"/>
             <PORTMAP DIR="I" PHYSICAL="FSL_S_Exists"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="fft_coprocessor_0_to_microblaze_0" BUSSTD="FSL" BUSSTD_PSF="FSL" IS_INSTANTIATED="TRUE" MHS_INDEX="0" MPD_INDEX="1" NAME="MFSL" TYPE="MASTER">
+          <PORTMAPS>
+            <PORTMAP DIR="I" PHYSICAL="FSL_Clk"/>
+            <PORTMAP DIR="I" PHYSICAL="FSL_Rst"/>
+            <PORTMAP DIR="I" PHYSICAL="FSL_M_Clk"/>
+            <PORTMAP DIR="O" PHYSICAL="FSL_M_Write"/>
+            <PORTMAP DIR="O" PHYSICAL="FSL_M_Data"/>
+            <PORTMAP DIR="O" PHYSICAL="FSL_M_Control"/>
+            <PORTMAP DIR="I" PHYSICAL="FSL_M_Full"/>
           </PORTMAPS>
         </BUSINTERFACE>
       </BUSINTERFACES>

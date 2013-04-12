@@ -55,6 +55,10 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path xfft_v7_1.ng
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type ngc
 incr fcount
 
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path xfft_v7_1.sym
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type symbol
+incr fcount
+
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path xfft_v7_1.v
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type verilog
 incr fcount

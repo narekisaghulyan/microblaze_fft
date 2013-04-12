@@ -1,0 +1,57 @@
+V3 38
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/Async_FIFO 1365800829 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR fsl_v20_v2_11_e/ASync_FIFO/VHDL_RTL 1365800830 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo.vhd \
+      EN fsl_v20_v2_11_e/Async_FIFO 1365800829
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo_bram.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/Async_FIFO_BRAM 1365800831 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo_bram.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 LB Unisim \
+      PH unisim/VCOMPONENTS 1335251629
+AR fsl_v20_v2_11_e/Async_FIFO_BRAM/IMP 1365800832 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo_bram.vhd \
+      EN fsl_v20_v2_11_e/Async_FIFO_BRAM 1365800831 CP MUXCY_L
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/fsl_v20.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/fsl_v20 1365800833 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/fsl_v20.vhd \
+      PB ieee/std_logic_1164 1335251622 LB Unisim PH unisim/VCOMPONENTS 1335251629 \
+      LB fsl_v20_v2_11_e EN fsl_v20_v2_11_e/Sync_FIFO 1365800827 \
+      EN fsl_v20_v2_11_e/Async_FIFO 1365800829
+AR fsl_v20_v2_11_e/fsl_v20/IMP 1365800834 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/fsl_v20.vhd \
+      EN fsl_v20_v2_11_e/fsl_v20 1365800833 CP SRL16 CP FDS CP std_logic \
+      CP Sync_FIFO CP Async_FIFO CP Async_FIFO_BRAM
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_srlfifo.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/SRL_FIFO 1365800821 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_srlfifo.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR fsl_v20_v2_11_e/SRL_FIFO/IMP 1365800822 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_srlfifo.vhd \
+      EN fsl_v20_v2_11_e/SRL_FIFO 1365800821 LB Unisim PH unisim/VCOMPONENTS 1335251629 \
+      CP FDRE CP MUXCY_L CP XORCY CP SRL16E
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_bram.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/Sync_BRAM 1365800825 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_bram.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR fsl_v20_v2_11_e/Sync_BRAM/syn 1365800826 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_bram.vhd \
+      EN fsl_v20_v2_11_e/Sync_BRAM 1365800825
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_dpram.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/Sync_DPRAM 1365800823 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_dpram.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR fsl_v20_v2_11_e/Sync_DPRAM/syn 1365800824 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_dpram.vhd \
+      EN fsl_v20_v2_11_e/Sync_DPRAM 1365800823
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/sync_fifo.vhd 2012/04/24.05:02:00 P.15xf
+EN fsl_v20_v2_11_e/Sync_FIFO 1365800827 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/sync_fifo.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 \
+      LB fsl_v20_v2_11_e
+AR fsl_v20_v2_11_e/Sync_FIFO/VHDL_RTL 1365800828 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/sync_fifo.vhd \
+      EN fsl_v20_v2_11_e/Sync_FIFO 1365800827 CP natural CP std_logic \
+      CP std_logic_vector CP SRL_FIFO CP SYNC_DPRAM CP Sync_BRAM

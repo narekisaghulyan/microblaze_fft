@@ -110,16 +110,21 @@ WARNING:EDK:4180 - PORT: bscan_tdo1, CONNECTOR: bscan_tdo1 - No driver found.
    Port will be driven to GND -
    /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_00_b/data/m
    dm_v2_1_0.mpd line 239 
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR:
+   microblaze_0_to_fft_coprocessor_0_OPB_Rst - No driver found. Port will be
+   driven to GND -
+   /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 28 
 WARNING:EDK:4180 - PORT: FSL_S_Clk, CONNECTOR:
    microblaze_0_to_fft_coprocessor_0_FSL_S_Clk - No driver found. Port will be
    driven to GND -
    /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
-   0_a/data/fft_coprocessor_v2_1_0.mpd line 20 
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 29 
 WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR:
    fft_coprocessor_0_to_microblaze_0_FSL_M_Clk - No driver found. Port will be
    driven to GND -
    /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
-   0_a/data/fft_coprocessor_v2_1_0.mpd line 25 
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 34 
 WARNING:EDK:4181 - PORT: FSL0_S_CLK, CONNECTOR:
    fft_coprocessor_0_to_microblaze_0_FSL_S_Clk - floating connection -
    /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a
@@ -253,6 +258,9 @@ Completion time: 0.00 seconds
 Creating hardware output directories ...
 
 Managing hardware (BBD-specified) netlist files ...
+IPNAME:fft_coprocessor INSTANCE:fft_coprocessor_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 148 - Copying
+(BBD-specified) netlist files.
 
 Managing cache ...
 IPNAME:plb_v46 INSTANCE:mb_plb -
@@ -282,6 +290,9 @@ cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
 /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 127 - Copying
 cache implementation netlist
+IPNAME:fsl_v20 INSTANCE:fft_coprocessor_0_to_microblaze_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 140 - Copying
+cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:lmb_bram -
@@ -297,10 +308,10 @@ ClkGen elaborate status: PASSED
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 0.00 seconds
+Completion time: 1.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -320,29 +331,31 @@ XST synthesis
 INSTANCE:clock_generator_0 -
 /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 100 - Running
 XST synthesis
-INSTANCE:fft_coprocessor_0_to_microblaze_0 -
-/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 140 - Running
-XST synthesis
 INSTANCE:fft_coprocessor_0 -
 /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 148 - Running
 XST synthesis
-ERROR:EDK:546 - Aborting XST flow execution!
-INFO:EDK:2246 - Refer to
-   /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/xst_
-   system_fft_coprocessor_0_wrapper/system_fft_coprocessor_0_wrapper_xst.srp for
-   details
+INSTANCE:microblaze_0_to_fft_coprocessor_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 156 - Running
+XST synthesis
 
 Running NGCBUILD ...
+IPNAME:system_microblaze_0_wrapper INSTANCE:microblaze_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 24 - Running
+NGCBUILD
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
 /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 100 - Running
 NGCBUILD
-IPNAME:system_fft_coprocessor_0_to_microblaze_0_wrapper
-INSTANCE:fft_coprocessor_0_to_microblaze_0 -
-/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 140 - Running
+IPNAME:system_fft_coprocessor_0_wrapper INSTANCE:fft_coprocessor_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 148 - Running
+NGCBUILD
+IPNAME:system_microblaze_0_to_fft_coprocessor_0_wrapper
+INSTANCE:microblaze_0_to_fft_coprocessor_0 -
+/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 156 - Running
 NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
-ERROR:EDK:440 - platgen failed with errors!
+
+Total run time: 898.00 seconds

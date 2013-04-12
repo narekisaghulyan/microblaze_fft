@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/devl/projnav/fft_coprocessor.ncd
+OUTFILE=/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/devl/projnav/fft_coprocessor.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/devl/projnav
+LICENSE=ISE
+USER_INFO=__174112198_174112199_174416789

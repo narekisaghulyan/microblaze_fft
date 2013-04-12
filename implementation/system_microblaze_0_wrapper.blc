@@ -20,10 +20,10 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 506076 kilobytes
+Total memory usage is 506344 kilobytes
 
 Writing NGC file "../system_microblaze_0_wrapper.ngc" ...
-Total REAL time to NGCBUILD completion:  10 sec
+Total REAL time to NGCBUILD completion:  9 sec
 Total CPU time to NGCBUILD completion:   9 sec
 
 Writing NGCBUILD log file "../system_microblaze_0_wrapper.blc"...

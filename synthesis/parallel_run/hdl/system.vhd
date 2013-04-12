@@ -1333,7 +1333,6 @@ architecture STRUCTURE of system is
   signal fft_coprocessor_0_to_microblaze_0_FSL_S_Data : std_logic_vector(0 to 31);
   signal fft_coprocessor_0_to_microblaze_0_FSL_S_Exists : std_logic;
   signal fft_coprocessor_0_to_microblaze_0_FSL_S_Read : std_logic;
-  signal fft_coprocessor_0_to_microblaze_0_LMB_Rst : std_logic;
   signal ilmb_LMB_ABus : std_logic_vector(0 to 31);
   signal ilmb_LMB_AddrStrobe : std_logic;
   signal ilmb_LMB_BE : std_logic_vector(0 to 3);
@@ -2698,7 +2697,7 @@ begin
     port map (
       FSL_Clk => clk_50_0000MHz,
       SYS_Rst => sys_bus_reset(0),
-      FSL_Rst => fft_coprocessor_0_to_microblaze_0_LMB_Rst,
+      FSL_Rst => open,
       FSL_M_Clk => net_gnd0,
       FSL_M_Data => fft_coprocessor_0_to_microblaze_0_FSL_M_Data,
       FSL_M_Control => fft_coprocessor_0_to_microblaze_0_FSL_M_Control,
@@ -2717,7 +2716,7 @@ begin
   fft_coprocessor_0 : system_fft_coprocessor_0_wrapper
     port map (
       FSL_Clk => clk_50_0000MHz,
-      FSL_Rst => fft_coprocessor_0_to_microblaze_0_LMB_Rst,
+      FSL_Rst => net_gnd0,
       FSL_S_Clk => net_gnd0,
       FSL_S_Read => microblaze_0_to_fft_coprocessor_0_FSL_S_Read,
       FSL_S_Data => microblaze_0_to_fft_coprocessor_0_FSL_S_Data,

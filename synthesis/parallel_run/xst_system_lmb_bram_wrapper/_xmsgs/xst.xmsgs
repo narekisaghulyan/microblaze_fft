@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">570</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">613</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">656</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">699</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">742</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">785</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">828</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">871</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">914</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">957</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1000</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1043</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1086</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1129</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1172</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPA</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTLATB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CASCADEOUTREGB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">DOPB</arg>&apos; of component &apos;<arg fmt="%s" index="4">RAMB36</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd</arg>&quot; line <arg fmt="%d" index="2">1215</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAMB36</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">BRAM_Addr_A&lt;0:15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">BRAM_Addr_A&lt;30:31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">BRAM_Addr_B&lt;0:15&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">BRAM_Addr_B&lt;30:31&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign98&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign94&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign90&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign86&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign82&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign78&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign74&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign70&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign66&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign62&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign6&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign58&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign54&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign50&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign46&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign42&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign38&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign34&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign30&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign26&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign22&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign2&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign18&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign14&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign130&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign126&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign122&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign118&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign114&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign110&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign106&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign102&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign10&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pgassign1&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_0</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_1</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_2</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_3</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_4</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_5</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_6</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_7</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_8</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_9</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_10</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_11</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_12</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_13</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_14</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">ramb36_15</arg> in unit <arg fmt="%s" index="2">lmb_bram_elaborate</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36_EXP</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

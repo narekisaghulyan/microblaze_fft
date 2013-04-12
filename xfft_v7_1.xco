@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.1
-# Date: Wed Apr 10 00:07:07 2013
+# Date: Fri Apr 12 03:14:26 2013
 #
 ##############################################################
 #
@@ -31,7 +31,7 @@ SET implementationfiletype = Ngc
 SET package = ff1136
 SET removerpms = false
 SET simulationfiles = Behavioral
-SET speedgrade = -2
+SET speedgrade = -1
 SET verilogsim = true
 SET vhdlsim = false
 # END Project Options
@@ -40,13 +40,13 @@ SELECT Fast_Fourier_Transform xilinx.com:ip:xfft:7.1
 # END Select
 # BEGIN Parameters
 CSET butterfly_type=use_luts
-CSET ce=false
+CSET ce=true
 CSET channels=1
 CSET complex_mult_type=use_mults_resources
 CSET component_name=xfft_v7_1
 CSET cyclic_prefix_insertion=false
 CSET data_format=fixed_point
-CSET implementation_options=radix_4_burst_io
+CSET implementation_options=radix_2_burst_io
 CSET input_data_offset=no_offset
 CSET input_width=16
 CSET memory_options_data=block_ram
@@ -61,7 +61,7 @@ CSET rounding_modes=truncation
 CSET run_time_configurable_transform_length=false
 CSET scaling_options=scaled
 CSET sclr=false
-CSET target_clock_frequency=250
+CSET target_clock_frequency=50
 CSET target_data_throughput=50
 CSET transform_length=1024
 # END Parameters
@@ -69,4 +69,4 @@ CSET transform_length=1024
 MISC pkg_timestamp=2011-07-18T16:01:57Z
 # END Extra information
 GENERATE
-# CRC: 815a057a
+# CRC:  5ddad7f

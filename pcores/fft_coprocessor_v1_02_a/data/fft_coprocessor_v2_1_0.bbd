@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/data/fft_coprocessor_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Thu Apr 11 23:31:17 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+xfft_v7_1.ngc

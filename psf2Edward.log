@@ -13,16 +13,21 @@ WARNING:EDK:4180 - PORT: bscan_tdo1, CONNECTOR: bscan_tdo1 - No driver found.
    Port will be driven to GND -
    /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_00_b/data/m
    dm_v2_1_0.mpd line 239 
+WARNING:EDK:4180 - PORT: FSL_Rst, CONNECTOR:
+   microblaze_0_to_fft_coprocessor_0_OPB_Rst - No driver found. Port will be
+   driven to GND -
+   /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 28 
 WARNING:EDK:4180 - PORT: FSL_S_Clk, CONNECTOR:
    microblaze_0_to_fft_coprocessor_0_FSL_S_Clk - No driver found. Port will be
    driven to GND -
    /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
-   0_a/data/fft_coprocessor_v2_1_0.mpd line 20 
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 29 
 WARNING:EDK:4180 - PORT: FSL_M_Clk, CONNECTOR:
    fft_coprocessor_0_to_microblaze_0_FSL_M_Clk - No driver found. Port will be
    driven to GND -
    /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_0
-   0_a/data/fft_coprocessor_v2_1_0.mpd line 25 
+   2_a/data/fft_coprocessor_v2_1_0.mpd line 34 
 WARNING:EDK:4181 - PORT: FSL0_S_CLK, CONNECTOR:
    fft_coprocessor_0_to_microblaze_0_FSL_S_Clk - floating connection -
    /opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a

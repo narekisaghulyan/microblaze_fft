@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthe
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 
@@ -59,7 +59,9 @@ Cores Search Directories           : {./}
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling verilog file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/hdl/verilog/fft_coprocessor.v" in library fft_coprocessor_v1_00_a
+Compiling verilog file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/hdl/verilog/xfft_v7_1.v" in library fft_coprocessor_v1_02_a
+Compiling verilog file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/hdl/verilog/fft_coprocessor.v" in library fft_coprocessor_v1_02_a
+Module <xfft_v7_1> compiled
 Module <fft_coprocessor> compiled
 Compiling verilog file "../hdl/system_fft_coprocessor_0_wrapper.v" in library work
 Module <system_fft_coprocessor_0_wrapper> compiled
@@ -70,13 +72,374 @@ Analysis of file <"system_fft_coprocessor_0_wrapper_xst.prj"> succeeded.
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-ERROR:HDLCompilers:87 - "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/hdl/verilog/fft_coprocessor.v" line 183 Could not find module/primitive 'xfft_v7_1'
+Analyzing hierarchy for module <system_fft_coprocessor_0_wrapper> in library <work>.
+
+Analyzing hierarchy for module <fft_coprocessor> in library <fft_coprocessor_v1_02_a> with parameters.
+	Busy = "00000000000000000000000000000010"
+	Idle = "00000000000000000000000000000000"
+	NUMBER_OF_INPUT_WORDS = "00000000000000000000010000000000"
+	NUMBER_OF_OUTPUT_WORDS = "00000000000000000000010000000000"
+	Read_Inputs = "00000000000000000000000000000001"
+	Write_Outputs = "00000000000000000000000000000011"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <system_fft_coprocessor_0_wrapper>.
+Module <system_fft_coprocessor_0_wrapper> is correct for synthesis.
+ 
+Analyzing module <fft_coprocessor> in library <fft_coprocessor_v1_02_a>.
+	Busy = 32'sb00000000000000000000000000000010
+	Idle = 32'sb00000000000000000000000000000000
+	NUMBER_OF_INPUT_WORDS = 32'sb00000000000000000000010000000000
+	NUMBER_OF_OUTPUT_WORDS = 32'sb00000000000000000000010000000000
+	Read_Inputs = 32'sb00000000000000000000000000000001
+	Write_Outputs = 32'sb00000000000000000000000000000011
+WARNING:Xst:2211 - "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/hdl/verilog/xfft_v7_1.v" line 183: Instantiating black box module <xfft_v7_1>.
+Module <fft_coprocessor> is correct for synthesis.
+ 
+    Set user-defined property "SYN_BLACK_BOX =  1" for instance <my_fft> in unit <fft_coprocessor>.
+    Set user-defined property "SYN_NOPRUNE =  1" for instance <my_fft> in unit <fft_coprocessor>.
+    Set property "SYN_NOPRUNE = 1" for unit <xfft_v7_1>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <FSL_M_Data<16>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<17>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<18>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<19>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<20>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<21>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<22>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<23>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<24>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<25>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<26>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<27>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<28>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<29>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<30>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <FSL_M_Data<31>> in unit <fft_coprocessor> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <fft_coprocessor>.
+    Related source file is "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/hdl/verilog/fft_coprocessor.v".
+WARNING:Xst:647 - Input <FSL_S_Data<16:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_M_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Control> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <FSL_M_Control> is never assigned. Tied to value 0.
+WARNING:Xst:646 - Signal <fft_xn_index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <fft_xn_im> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <fft_xk_index> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fft_xk_im> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <fft_scale_sch_we> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <fft_scale_sch> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <fft_rfd> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <fft_fwd_inv_we> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <fft_fwd_inv> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <fft_edone> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fft_dv> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <fft_done> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | FSL_Clk                   (rising_edge)        |
+    | Reset              | FSL_Rst                   (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <FSL_M_Data<0:15>>.
+    Found 1-bit register for signal <fft_ce>.
+    Found 1-bit register for signal <fft_start>.
+    Found 16-bit register for signal <fft_xn_re>.
+    Found 11-bit register for signal <nr_of_reads>.
+    Found 11-bit subtractor for signal <nr_of_reads$addsub0000> created at line 258.
+    Found 11-bit register for signal <nr_of_writes>.
+    Found 11-bit subtractor for signal <nr_of_writes$addsub0000> created at line 271.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  56 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <fft_coprocessor> synthesized.
+
+
+Synthesizing Unit <system_fft_coprocessor_0_wrapper>.
+    Related source file is "../hdl/system_fft_coprocessor_0_wrapper.v".
+Unit <system_fft_coprocessor_0_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 11-bit subtractor                                     : 2
+# Registers                                            : 21
+ 1-bit register                                        : 18
+ 11-bit register                                       : 2
+ 16-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <fft_coprocessor_0/state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 00
+ 001   | 01
+ 010   | 11
+ 011   | 10
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 11-bit subtractor                                     : 2
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_fft_coprocessor_0_wrapper> ...
+
+Optimizing unit <fft_coprocessor> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 58
+ Flip-Flops                                            : 58
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : system_fft_coprocessor_0_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 74
+
+Cell Usage :
+# BELS                             : 84
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 9
+#      LUT3                        : 10
+#      LUT4                        : 9
+#      LUT5                        : 24
+#      LUT6                        : 30
+# FlipFlops/Latches                : 58
+#      FDE                         : 34
+#      FDR                         : 14
+#      FDRS                        : 10
+# Others                           : 1
+#      xfft_v7_1                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              58  out of  69120     0%  
+ Number of Slice LUTs:                   83  out of  69120     0%  
+    Number used as Logic:                83  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     97
+   Number with an unused Flip Flop:      39  out of     97    40%  
+   Number with an unused LUT:            14  out of     97    14%  
+   Number of fully used LUT-FF pairs:    44  out of     97    45%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          74
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                 | Load  |
+-----------------------------------+---------------------------------------+-------+
+FSL_Clk                            | NONE(fft_coprocessor_0/state_FSM_FFd2)| 58    |
+-----------------------------------+---------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.960ns (Maximum Frequency: 337.838MHz)
+   Minimum input arrival time before clock: 1.840ns
+   Maximum output required time after clock: 1.403ns
+   Maximum combinational path delay: 0.468ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_Clk'
+  Clock period: 2.960ns (frequency: 337.838MHz)
+  Total number of paths / destination ports: 636 / 68
+-------------------------------------------------------------------------
+Delay:               2.960ns (Levels of Logic = 3)
+  Source:            fft_coprocessor_0/nr_of_writes_5 (FF)
+  Destination:       fft_coprocessor_0/nr_of_writes_2 (FF)
+  Source Clock:      FSL_Clk rising
+  Destination Clock: FSL_Clk rising
+
+  Data Path: fft_coprocessor_0/nr_of_writes_5 to fft_coprocessor_0/nr_of_writes_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.471   1.074  fft_coprocessor_0/nr_of_writes_5 (fft_coprocessor_0/nr_of_writes_5)
+     LUT6:I0->O            9   0.094   0.524  fft_coprocessor_0/Msub_nr_of_writes_addsub0000_cy<5>11 (fft_coprocessor_0/Msub_nr_of_writes_addsub0000_cy<5>)
+     LUT6:I5->O            7   0.094   0.609  fft_coprocessor_0/nr_of_writes_mux0000<8>21 (fft_coprocessor_0/N27)
+     LUT6:I4->O            1   0.094   0.000  fft_coprocessor_0/nr_of_writes_9_rstpot (fft_coprocessor_0/nr_of_writes_9_rstpot)
+     FDR:D                    -0.018          fft_coprocessor_0/nr_of_writes_9
+    ----------------------------------------
+    Total                      2.960ns (0.753ns logic, 2.207ns route)
+                                       (25.4% logic, 74.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 178 / 126
+-------------------------------------------------------------------------
+Offset:              1.840ns (Levels of Logic = 3)
+  Source:            FSL_S_Exists (PAD)
+  Destination:       fft_coprocessor_0/nr_of_writes_1 (FF)
+  Destination Clock: FSL_Clk rising
+
+  Data Path: FSL_S_Exists to fft_coprocessor_0/nr_of_writes_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT4:I0->O            1   0.094   0.576  fft_coprocessor_0/Msub_nr_of_reads_addsub0000_cy<9>11_SW0 (N42)
+     LUT6:I4->O           10   0.094   0.529  fft_coprocessor_0/nr_of_writes_mux0000<1>21 (fft_coprocessor_0/N4)
+     LUT2:I1->O            1   0.094   0.000  fft_coprocessor_0/nr_of_writes_4_rstpot (fft_coprocessor_0/nr_of_writes_4_rstpot)
+     FDR:D                    -0.018          fft_coprocessor_0/nr_of_writes_4
+    ----------------------------------------
+    Total                      1.840ns (0.735ns logic, 1.105ns route)
+                                       (39.9% logic, 60.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 38 / 36
+-------------------------------------------------------------------------
+Offset:              1.403ns (Levels of Logic = 1)
+  Source:            fft_coprocessor_0/state_FSM_FFd2 (FF)
+  Destination:       FSL_M_Write (PAD)
+  Source Clock:      FSL_Clk rising
+
+  Data Path: fft_coprocessor_0/state_FSM_FFd2 to FSL_M_Write
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             36   0.471   0.838  fft_coprocessor_0/state_FSM_FFd2 (fft_coprocessor_0/state_FSM_FFd2)
+     LUT3:I0->O            0   0.094   0.000  fft_coprocessor_0/FSL_M_Write1 (FSL_M_Write)
+    ----------------------------------------
+    Total                      1.403ns (0.565ns logic, 0.838ns route)
+                                       (40.3% logic, 59.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.468ns (Levels of Logic = 1)
+  Source:            FSL_S_Exists (PAD)
+  Destination:       FSL_S_Read (PAD)
+
+  Data Path: FSL_S_Exists to FSL_S_Read
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT3:I0->O            0   0.094   0.000  fft_coprocessor_0/FSL_S_Read1 (FSL_S_Read)
+    ----------------------------------------
+    Total                      0.468ns (0.468ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+WARNING:Xst:616 - Invalid property "SYN_NOPRUNE 1": Did not attach to fft_coprocessor_0/my_fft.
+WARNING:Xst:616 - Invalid property "SYN_BLACK_BOX 1": Did not attach to fft_coprocessor_0/my_fft.
+
+
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 24.20 secs
+ 
 --> 
 
 
-Total memory usage is 624364 kilobytes
+Total memory usage is 636112 kilobytes
 
-Number of errors   :    1 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
 

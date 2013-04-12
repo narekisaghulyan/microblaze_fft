@@ -1,0 +1,8 @@
+Release 14.1 Drc P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 11 21:09:27 2013
+
+drc -z fft_coprocessor.ncd fft_coprocessor.pcf
+
+DRC detected 0 errors and 0 warnings.

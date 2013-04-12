@@ -147,7 +147,7 @@ END
 
 BEGIN fft_coprocessor
  PARAMETER INSTANCE = fft_coprocessor_0
- PARAMETER HW_VER = 1.00.a
+ PARAMETER HW_VER = 1.02.a
  BUS_INTERFACE MFSL = fft_coprocessor_0_to_microblaze_0
  BUS_INTERFACE SFSL = microblaze_0_to_fft_coprocessor_0
  PORT FSL_Clk = clk_50_0000MHz

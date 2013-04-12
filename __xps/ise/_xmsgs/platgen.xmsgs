@@ -24,10 +24,10 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 <msg type="info" file="EDK" num="740" delta="old" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">dlmb_cntlr</arg>:<arg fmt="%s" index="2">BRAM_Clk_A</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
 </msg>
 
-<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">fft_coprocessor_0_to_microblaze_0</arg>:<arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+<msg type="info" file="EDK" num="1039" delta="old" >Did not update the value for parameter: <arg fmt="%s" index="1">fft_coprocessor_0_to_microblaze_0</arg>:<arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
 </msg>
 
-<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">microblaze_0_to_fft_coprocessor_0</arg>:<arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+<msg type="info" file="EDK" num="1039" delta="old" >Did not update the value for parameter: <arg fmt="%s" index="1">microblaze_0_to_fft_coprocessor_0</arg>:<arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">plb_v46</arg>, INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PLBV46_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">2</arg> - <arg fmt="%s" index="7">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plb_v46_v1_05_a/data/plb_v46_v2_1_0.mpd line 78</arg> 
@@ -63,16 +63,19 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 <msg type="warning" file="EDK" num="4180" delta="old" >PORT: <arg fmt="%s" index="1">bscan_tdo1</arg>, CONNECTOR: <arg fmt="%s" index="2">bscan_tdo1</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_00_b/data/mdm_v2_1_0.mpd line 239</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4180" delta="new" >PORT: <arg fmt="%s" index="1">FSL_S_Clk</arg>, CONNECTOR: <arg fmt="%s" index="2">microblaze_0_to_fft_coprocessor_0_FSL_S_Clk</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/data/fft_coprocessor_v2_1_0.mpd line 20</arg> 
+<msg type="warning" file="EDK" num="4180" delta="old" >PORT: <arg fmt="%s" index="1">FSL_Rst</arg>, CONNECTOR: <arg fmt="%s" index="2">microblaze_0_to_fft_coprocessor_0_OPB_Rst</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/data/fft_coprocessor_v2_1_0.mpd line 28</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4180" delta="new" >PORT: <arg fmt="%s" index="1">FSL_M_Clk</arg>, CONNECTOR: <arg fmt="%s" index="2">fft_coprocessor_0_to_microblaze_0_FSL_M_Clk</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/data/fft_coprocessor_v2_1_0.mpd line 25</arg> 
+<msg type="warning" file="EDK" num="4180" delta="old" >PORT: <arg fmt="%s" index="1">FSL_S_Clk</arg>, CONNECTOR: <arg fmt="%s" index="2">microblaze_0_to_fft_coprocessor_0_FSL_S_Clk</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/data/fft_coprocessor_v2_1_0.mpd line 29</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">FSL0_S_CLK</arg>, CONNECTOR: <arg fmt="%s" index="2">fft_coprocessor_0_to_microblaze_0_FSL_S_Clk</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/data/microblaze_v2_1_0.mpd line 695</arg> 
+<msg type="warning" file="EDK" num="4180" delta="old" >PORT: <arg fmt="%s" index="1">FSL_M_Clk</arg>, CONNECTOR: <arg fmt="%s" index="2">fft_coprocessor_0_to_microblaze_0_FSL_M_Clk</arg> - No driver found. Port will be driven to <arg fmt="%s" index="3">GND</arg> - <arg fmt="%s" index="4">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_02_a/data/fft_coprocessor_v2_1_0.mpd line 34</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">FSL0_M_CLK</arg>, CONNECTOR: <arg fmt="%s" index="2">microblaze_0_to_fft_coprocessor_0_FSL_M_Clk</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/data/microblaze_v2_1_0.mpd line 700</arg> 
+<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">FSL0_S_CLK</arg>, CONNECTOR: <arg fmt="%s" index="2">fft_coprocessor_0_to_microblaze_0_FSL_S_Clk</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/data/microblaze_v2_1_0.mpd line 695</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">FSL0_M_CLK</arg>, CONNECTOR: <arg fmt="%s" index="2">microblaze_0_to_fft_coprocessor_0_FSL_M_Clk</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/data/microblaze_v2_1_0.mpd line 700</arg> 
 </msg>
 
 <msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">bscan_tdi</arg>, CONNECTOR: <arg fmt="%s" index="2">bscan_tdi</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_00_b/data/mdm_v2_1_0.mpd line 232</arg> 
@@ -96,13 +99,13 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 <msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">bscan_drck1</arg>, CONNECTOR: <arg fmt="%s" index="2">bscan_drck1</arg> - floating connection - <arg fmt="%s" index="3">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/mdm_v2_00_b/data/mdm_v2_1_0.mpd line 238</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">Peripheral_Reset</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_periph_reset</arg> - floating connection - <arg fmt="%s" index="3">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 137</arg> 
+<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">Peripheral_Reset</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_periph_reset</arg> - floating connection - <arg fmt="%s" index="3">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/system.mhs line 137</arg> 
 </msg>
 
-<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">fft_coprocessor_0_to_microblaze_0</arg>, PARAMETER: <arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+<msg type="info" file="EDK" num="4060" delta="old" >INSTANCE: <arg fmt="%s" index="1">fft_coprocessor_0_to_microblaze_0</arg>, PARAMETER: <arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
 </msg>
 
-<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">microblaze_0_to_fft_coprocessor_0</arg>, PARAMETER: <arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+<msg type="info" file="EDK" num="4060" delta="old" >INSTANCE: <arg fmt="%s" index="1">microblaze_0_to_fft_coprocessor_0</arg>, PARAMETER: <arg fmt="%s" index="2">C_READ_CLOCK_PERIOD</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">microblaze</arg>, INSTANCE:<arg fmt="%s" index="2">microblaze_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_D_PLB</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_30_a/data/microblaze_v2_1_0.mpd line 230</arg> 
@@ -132,20 +135,11 @@ WARNING:Security:42 - Your software subscription period has lapsed. Your current
 <msg type="info" file="EDK" num="4211" delta="old" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
 </msg>
 
-<msg type="info" file="EDK" num="4194" delta="new" >Running <arg fmt="%s" index="1">XST</arg> parallelly on <arg fmt="%s" index="2">2</arg> processors
-</msg>
-
-<msg type="error" file="EDK" num="546" delta="new" >Aborting XST flow execution!
-</msg>
-
-<msg type="info" file="EDK" num="2246" delta="new" >Refer to <arg fmt="%s" index="1">/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/xst_system_fft_coprocessor_0_wrapper/system_fft_coprocessor_0_wrapper_xst.srp</arg> for details
+<msg type="info" file="EDK" num="4194" delta="old" >Running <arg fmt="%s" index="1">XST</arg> parallelly on <arg fmt="%s" index="2">2</arg> processors
 </msg>
 
 <msg type="info" file="EDK" num="3509" delta="old" >NCF files should not be modified as they will be regenerated.
 If any constraint needs to be overridden, this should be done by modifying the data/<arg fmt="%s" index="1">system</arg>.ucf file.
-</msg>
-
-<msg type="error" file="EDK" num="440" delta="new" ><arg fmt="%s" index="1">platgen</arg> failed with errors!
 </msg>
 
 </messages>

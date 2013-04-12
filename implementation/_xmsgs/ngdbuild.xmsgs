@@ -9,5 +9,104 @@
 <arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = PERIOD &quot;clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0&quot; TS_sys_clk_pin * 0.5 HIGH 50%&gt;</arg>
 </msg>
 
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032c</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032d</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032e</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000032f</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000330</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000331</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000342</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000343</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035c</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035d</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035e</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000035f</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000360</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000361</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000372</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000373</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038c</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038d</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038e</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk0000038f</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000390</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000391</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003a2</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003a3</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bc</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bd</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003be</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003bf</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003c0</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003c1</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003d2</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk000003d3</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="new" >SFF primitive &apos;<arg fmt="%s" index="1">fft_coprocessor_0/fft_coprocessor_0/my_fft/blk00000681</arg>&apos; has unconnected output pin
+</msg>
+
 </messages>
 
