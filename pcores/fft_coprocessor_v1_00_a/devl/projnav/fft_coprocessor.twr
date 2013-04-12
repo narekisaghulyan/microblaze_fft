@@ -37,41 +37,25 @@ Setup/Hold to clock FSL_Clk
               |Max Setup to|Max Hold to |                  | Clock  |
 Source        | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 --------------+------------+------------+------------------+--------+
-FSL_M_Full    |    6.782(R)|    1.859(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_Rst       |    5.166(R)|    2.166(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<0> |    0.130(R)|    2.211(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<1> |    0.839(R)|    1.582(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<2> |    1.369(R)|    1.097(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<3> |    1.394(R)|    1.627(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<4> |    1.412(R)|    1.968(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<5> |    1.474(R)|    1.981(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<6> |    1.749(R)|    1.834(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<7> |    1.758(R)|    1.762(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<8> |    1.175(R)|    2.191(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<9> |    1.598(R)|    1.873(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<10>|    1.824(R)|    1.770(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<11>|    1.538(R)|    1.968(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<12>|    1.469(R)|    2.016(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<13>|    1.705(R)|    1.869(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<14>|    1.922(R)|    1.774(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<15>|    1.542(R)|    2.058(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<16>|    1.491(R)|    1.868(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<17>|    1.579(R)|    1.930(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<18>|    1.957(R)|    1.460(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<19>|    1.979(R)|    1.616(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<20>|    1.669(R)|    2.025(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<21>|    1.640(R)|    2.122(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<22>|    2.213(R)|    1.698(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<23>|    1.852(R)|    1.968(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<24>|    1.638(R)|    2.145(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<25>|    1.825(R)|    2.043(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<26>|    2.169(R)|    1.831(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<27>|    1.983(R)|    1.912(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<28>|    2.421(R)|    1.290(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<29>|    2.594(R)|    1.294(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<30>|    2.216(R)|    1.501(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Data<31>|    2.018(R)|    1.670(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Exists  |    8.236(R)|    2.126(R)|FSL_Clk_BUFGP     |   0.000|
+FSL_M_Full    |    6.034(R)|    2.020(R)|FSL_Clk_IBUF      |   0.000|
+FSL_Rst       |    6.192(R)|    2.507(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<0> |    0.107(R)|    2.118(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<1> |   -0.118(R)|    2.326(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<2> |   -0.135(R)|    2.341(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<3> |    0.043(R)|    2.174(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<4> |    0.001(R)|    2.234(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<5> |    0.055(R)|    2.184(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<6> |    0.095(R)|    2.147(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<7> |    0.056(R)|    2.183(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<8> |   -0.217(R)|    2.433(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<9> |   -0.341(R)|    2.546(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<10>|   -0.455(R)|    2.652(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<11>|   -0.347(R)|    2.552(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<12>|    0.085(R)|    2.152(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<13>|    0.037(R)|    2.194(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<14>|    0.335(R)|    1.922(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Data<15>|    0.264(R)|    1.986(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Exists  |   10.764(R)|    1.661(R)|FSL_Clk_IBUF      |   0.000|
 --------------+------------+------------+------------------+--------+
 
 Clock FSL_Clk to Pad
@@ -79,40 +63,24 @@ Clock FSL_Clk to Pad
               | clk (edge) |                  | Clock  |
 Destination   |   to PAD   |Internal Clock(s) | Phase  |
 --------------+------------+------------------+--------+
-FSL_M_Data<0> |    9.660(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<1> |    9.507(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<2> |    9.484(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<3> |    9.605(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<4> |    9.665(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<5> |    9.508(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<6> |    9.491(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<7> |    9.319(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<8> |    9.434(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<9> |    9.413(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<10>|    9.229(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<11>|    9.346(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<12>|    9.162(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<13>|    9.380(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<14>|    9.235(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<15>|    9.171(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<16>|    8.930(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<17>|    8.782(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<18>|    8.819(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<19>|    8.848(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<20>|    9.015(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<21>|    8.808(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<22>|    8.845(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<23>|    8.805(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<24>|    8.978(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<25>|    8.817(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<26>|    8.852(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<27>|    8.817(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<28>|    8.917(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<29>|    8.830(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<30>|    8.773(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Data<31>|    8.957(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_M_Write   |   12.690(R)|FSL_Clk_BUFGP     |   0.000|
-FSL_S_Read    |   10.207(R)|FSL_Clk_BUFGP     |   0.000|
+FSL_M_Data<0> |    9.131(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<1> |    9.008(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<2> |    9.190(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<3> |    9.203(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<4> |    9.000(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<5> |    8.903(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<6> |    9.075(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<7> |    9.100(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<8> |    9.121(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<9> |    9.216(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<10>|    9.138(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<11>|    9.293(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<12>|    9.396(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<13>|    8.977(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<14>|    9.164(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Data<15>|    9.160(R)|FSL_Clk_IBUF      |   0.000|
+FSL_M_Write   |   10.034(R)|FSL_Clk_IBUF      |   0.000|
+FSL_S_Read    |   10.138(R)|FSL_Clk_IBUF      |   0.000|
 --------------+------------+------------------+--------+
 
 Clock to Setup on destination clock FSL_Clk
@@ -120,26 +88,26 @@ Clock to Setup on destination clock FSL_Clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-FSL_Clk        |   35.674|         |         |         |
+FSL_Clk        |   33.163|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-FSL_M_Full     |FSL_M_Write    |    6.037|
-FSL_S_Exists   |FSL_S_Read     |    8.109|
+FSL_M_Full     |FSL_M_Write    |    5.834|
+FSL_S_Exists   |FSL_S_Read     |    7.826|
 ---------------+---------------+---------+
 
 
-Analysis completed Tue Apr  9 20:59:09 2013 
+Analysis completed Thu Apr 11 20:59:23 2013 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 690 MB
+Peak Memory Usage: 724 MB
 
 
 

@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Tue Apr  9 17:39:44 2013">
+  <application stringID="Xst" timeStamp="Thu Apr 11 18:43:32 2013">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -51,13 +51,13 @@
         <item stringID="User_EnvOsname" value="unknown"/>
         <item stringID="User_EnvOsrelease" value="unknown"/>
       </item>
-      <item stringID="User_EnvHost" value="p380-35.EECS.Berkeley.EDU"/>
+      <item stringID="User_EnvHost" value="p380-37.EECS.Berkeley.EDU"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Pentium(R) D CPU 3.20GHz"/>
-          <item stringID="speed" value="3192.165 MHz"/>
+          <item stringID="speed" value="3192.052 MHz"/>
         </row>
       </table>
     </section>
@@ -69,10 +69,10 @@
       <item DEFAULT="" label="-top" stringID="XST_TOP" value="system_clock_generator_0_wrapper"/>
       <item DEFAULT="MIXED" label="-ifmt" stringID="XST_IFMT" value="MIXED"/>
       <item DEFAULT="" label="-ifn" stringID="XST_IFN" value="system_clock_generator_0_wrapper_xst.prj"/>
-      <item DEFAULT="" label="-ofn" stringID="XST_OFN" value="../implementation/system_clock_generator_0_wrapper.ngc"/>
+      <item DEFAULT="" label="-ofn" stringID="XST_OFN" value="system_clock_generator_0_wrapper.ngc"/>
       <item DEFAULT="/" stringID="XST_HIERARCHYSEPARATOR" value="/"/>
       <item DEFAULT="YES" label="-iobuf" stringID="XST_IOBUF" value="NO"/>
-      <item DEFAULT="" label="-sd" stringID="XST_SD" value="{../implementation}"/>
+      <item DEFAULT="" label="-sd" stringID="XST_SD" value="{./}"/>
       <item DEFAULT="" label="-vlgincdir" stringID="XST_VLGINCDIR" value="{&quot;/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/&quot; &quot;/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/&quot; &quot;/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/&quot; }"/>
     </section>
     <section stringID="XST_ADVANCED_HDL_SYNTHESIS_REPORTFOUND_NO_MACRO"/>
@@ -84,7 +84,7 @@
     </section>
     <section stringID="XST_FINAL_REPORT">
       <section stringID="XST_FINAL_RESULTS">
-        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="../implementation/system_clock_generator_0_wrapper.ngc"/>
+        <item stringID="XST_TOP_LEVEL_OUTPUT_FILE_NAME" value="system_clock_generator_0_wrapper.ngc"/>
         <item stringID="XST_OUTPUT_FORMAT" value="ngc"/>
         <item stringID="XST_OPTIMIZATION_GOAL" value="speed"/>
         <item stringID="XST_KEEP_HIERARCHY" value="no"/>

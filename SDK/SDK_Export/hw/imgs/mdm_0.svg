@@ -24,6 +24,17 @@
       <rect x="0" y="0" width="24" height="24" style="fill:#DDDDFF; stroke:#7777FF; stroke-width:1"/>
       <rect x="5.5" y="5" width="14" height="14" style="fill:#7777FF; stroke:none;"/>
     </g>
+    <g id="FSL_BifLabel">
+      <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#CC00CC; stroke:black; stroke-width:1"/>
+    </g>
+    <g id="FSL_busconn_SLAVE">
+      <circle cx="12" cy="12" r="12" style="fill:#FFBBFF; stroke:#CC00CC; stroke-width:1"/>
+      <circle cx="12.5" cy="12" r="7" style="fill:#CC00CC; stroke:none;"/>
+    </g>
+    <g id="FSL_busconn_MASTER">
+      <rect x="0" y="0" width="24" height="24" style="fill:#FFBBFF; stroke:#CC00CC; stroke-width:1"/>
+      <rect x="5.5" y="5" width="14" height="14" style="fill:#CC00CC; stroke:none;"/>
+    </g>
     <g id="PLBV46_BifLabel">
       <rect x="0" y="0" rx="3" ry="3" width="32" height="16" style="fill:#BB9955; stroke:black; stroke-width:1"/>
     </g>

@@ -23,6 +23,12 @@
 
   <RENDERIMG RASNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/proc_sys_reset_0.jpg" SVGNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/proc_sys_reset_0.svg" TMPSVGFN="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/__xps/.dswkshop/proc_sys_reset_0.svg"/>
 
+  <RENDERIMG RASNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/fft_coprocessor_0_to_microblaze_0.jpg" SVGNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/fft_coprocessor_0_to_microblaze_0.svg" TMPSVGFN="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/__xps/.dswkshop/fft_coprocessor_0_to_microblaze_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/fft_coprocessor_0.jpg" SVGNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/fft_coprocessor_0.svg" TMPSVGFN="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/__xps/.dswkshop/fft_coprocessor_0.svg"/>
+
+  <RENDERIMG RASNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/microblaze_0_to_fft_coprocessor_0.jpg" SVGNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/microblaze_0_to_fft_coprocessor_0.svg" TMPSVGFN="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/__xps/.dswkshop/microblaze_0_to_fft_coprocessor_0.svg"/>
+
   <RENDERIMG RASNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/system_blkd.jpg" SVGNAME="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/SDK/SDK_Export/hw/imgs/system_blkd.svg" TMPSVGFN="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/__xps/.dswkshop/system_blkd.svg"/>
 
 </RENDERBATCH>

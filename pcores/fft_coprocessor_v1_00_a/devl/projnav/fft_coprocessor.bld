@@ -175,10 +175,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:  73
 
-Total memory usage is 545716 kilobytes
+Total memory usage is 545768 kilobytes
 
 Writing NGD file "fft_coprocessor.ngd" ...
 Total REAL time to NGDBUILD completion:  23 sec
-Total CPU time to NGDBUILD completion:   22 sec
+Total CPU time to NGDBUILD completion:   23 sec
 
 Writing NGDBUILD log file "fft_coprocessor.bld"...

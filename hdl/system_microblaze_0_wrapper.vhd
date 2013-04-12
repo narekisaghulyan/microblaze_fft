@@ -1448,7 +1448,7 @@ begin
       C_EDGE_IS_POSITIVE => 1,
       C_RESET_MSR => X"00000000",
       C_OPCODE_0x0_ILLEGAL => 0,
-      C_FSL_LINKS => 0,
+      C_FSL_LINKS => 1,
       C_FSL_DATA_SIZE => 32,
       C_USE_EXTENDED_FSL_INSTR => 0,
       C_M0_AXIS_DATA_WIDTH => 32,

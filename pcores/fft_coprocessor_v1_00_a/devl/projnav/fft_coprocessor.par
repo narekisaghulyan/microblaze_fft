@@ -1,7 +1,7 @@
 Release 14.1 par P.15xf (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-p380-36.EECS.Berkeley.EDU::  Tue Apr 09 20:45:38 2013
+p380-37.EECS.Berkeley.EDU::  Thu Apr 11 20:40:05 2013
 
 par -w -intstyle ise -ol high -mt off fft_coprocessor_map.ncd
 fft_coprocessor.ncd fft_coprocessor.pcf 
@@ -39,54 +39,57 @@ Device speed data version:  "PRODUCTION 1.73 2012-04-23".
 
 Device Utilization Summary:
 
-   Number of BUFGs                           1 out of 32      3%
-   Number of External IOBs                  70 out of 640    10%
-      Number of LOCed IOBs                   0 out of 70      0%
+   Number of BUFGs                           2 out of 32      6%
+   Number of DSP48Es                         9 out of 64     14%
+   Number of External IOBs                  54 out of 640     8%
+      Number of LOCed IOBs                   0 out of 54      0%
 
-   Number of Slices                       1479 out of 17280   8%
-   Number of Slice Registers              2084 out of 69120   3%
-      Number used as Flip Flops           2082
+   Number of RAMB18X2s                       2 out of 148     1%
+   Number of RAMB18X2SDPs                    2 out of 148     1%
+   Number of Slices                       2328 out of 17280  13%
+   Number of Slice Registers              4195 out of 69120   6%
+      Number used as Flip Flops           4193
       Number used as Latches                 0
       Number used as LatchThrus              2
 
-   Number of Slice LUTS                   4507 out of 69120   6%
-   Number of Slice LUT-Flip Flop pairs    4507 out of 69120   6%
+   Number of Slice LUTS                   6112 out of 69120   8%
+   Number of Slice LUT-Flip Flop pairs    6613 out of 69120   9%
 
 
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 32 secs 
-Finished initial Timing Analysis.  REAL time: 32 secs 
+Starting initial Timing Analysis.  REAL time: 35 secs 
+Finished initial Timing Analysis.  REAL time: 35 secs 
 
 Starting Router
 
 
-Phase  1  : 21343 unrouted;      REAL time: 37 secs 
+Phase  1  : 30155 unrouted;      REAL time: 39 secs 
 
-Phase  2  : 18080 unrouted;      REAL time: 40 secs 
+Phase  2  : 23436 unrouted;      REAL time: 44 secs 
 
-Phase  3  : 7258 unrouted;      REAL time: 2 mins 31 secs 
+Phase  3  : 7857 unrouted;      REAL time: 2 mins 26 secs 
 
-Phase  4  : 11927 unrouted; (Par is working to improve performance)     REAL time: 5 mins 38 secs 
-
-Updating file: fft_coprocessor.ncd with current fully routed design.
-
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 mins 32 secs 
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 mins 38 secs 
+Phase  4  : 11932 unrouted; (Par is working to improve performance)     REAL time: 6 mins 57 secs 
 
 Updating file: fft_coprocessor.ncd with current fully routed design.
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 mins 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 mins 28 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 mins 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 mins 36 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 mins 1 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 mins 20 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 mins 24 secs 
-Total REAL time to Router completion: 10 mins 24 secs 
-Total CPU time to Router completion: 10 mins 6 secs 
+Updating file: fft_coprocessor.ncd with current fully routed design.
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 mins 6 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 mins 8 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 mins 38 secs 
+Total REAL time to Router completion: 15 mins 38 secs 
+Total CPU time to Router completion: 16 mins 7 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -106,8 +109,11 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net FSL | SETUP       |         N/A|    35.674ns|     N/A|           0
-  _Clk_BUFGP                                | HOLD        |     0.499ns|            |       0|           0
+  Autotimespec constraint for clock net FSL | SETUP       |         N/A|    33.163ns|     N/A|           0
+  _Clk_IBUF                                 | HOLD        |     0.547ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net fft | SETUP       |         N/A|     2.996ns|     N/A|           0
+  _clk                                      | HOLD        |     0.147ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -123,10 +129,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 11 mins 49 secs 
-Total CPU time to PAR completion: 11 mins 28 secs 
+Total REAL time to PAR completion: 17 mins 10 secs 
+Total CPU time to PAR completion: 17 mins 40 secs 
 
-Peak Memory Usage:  1028 MB
+Peak Memory Usage:  1067 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

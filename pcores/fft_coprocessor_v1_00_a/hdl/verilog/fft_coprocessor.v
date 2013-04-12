@@ -79,6 +79,8 @@
 //----------------------------------------
 // Module Section
 //----------------------------------------
+//`include "../../../../xfft_v7_1.v"
+
 module fft_coprocessor 
 	(
 		// ADD USER PORTS BELOW THIS LINE 
@@ -115,7 +117,7 @@ input                                     FSL_S_Control;
 input                                     FSL_S_Exists;
 input                                     FSL_M_Clk;
 output                                    FSL_M_Write;
-output     [0 : 31]                       FSL_M_Data;
+output reg [0 : 31]                       FSL_M_Data;
 output                                    FSL_M_Control;
 input                                     FSL_M_Full;
 
@@ -146,9 +148,10 @@ input                                     FSL_M_Full;
    localparam NUMBER_OF_OUTPUT_WORDS = 1024;
 
    // Define the states of state machine
-   localparam Idle  = 3'b100;
-   localparam Read_Inputs = 3'b010;
-   localparam Write_Outputs  = 3'b001;
+   localparam Idle  = 0;
+   localparam Read_Inputs = 1;
+   localparam Busy = 2;
+   localparam Write_Outputs  = 3;
 
    reg [0:2] state;
 
@@ -161,8 +164,7 @@ input                                     FSL_M_Full;
 
    // regs are inputs to fft;
    // wires are outputs from fft
-   reg fft_clk;   
-   reg fft_clk_rw; // FSL_clk / 2
+   wire fft_clk;
    reg fft_start;
    `define fft_fwd_inv 1
    `define fft_fwd_inv_we 0
@@ -172,7 +174,7 @@ input                                     FSL_M_Full;
          fft_edone,  // early done
          fft_done,
          fft_dv;     // data valid
-   wire [0:15] fft_xn_re; // exception to above rule; these are inputs to FFT!
+   reg [0:15] fft_xn_re;
    `define fft_xn_im 0
    `define fft_scale_sch 0
    wire  [9:0] fft_xn_index,
@@ -208,8 +210,16 @@ input                                     FSL_M_Full;
    assign FSL_S_Read  = (state == Read_Inputs) ? FSL_S_Exists : 0;
    assign FSL_M_Write = (state == Write_Outputs) ? ~FSL_M_Full : 0;
 
-   assign FSL_M_Data = sum;
+   //assign FSL_M_Data = sum;
+   
+   
+   // fft continuous assignments
+   reg fft_ce;
+   assign fft_clk = FSL_Clk && fft_ce;
 
+
+   // fft module timing is on page 29, figure 10, "LogiCORE IP Fast Fourier Transform v7.1"
+   
    always @(posedge FSL_Clk) 
    begin  // process The_SW_accelerator
       if (FSL_Rst)               // Synchronous reset (active high)
@@ -223,33 +233,53 @@ input                                     FSL_M_Full;
         end
       else
         case (state)
-          Idle: 
-            if (FSL_S_Exists == 1)
+          Idle: begin
+            fft_ce <= 1;
+            
+            if (FSL_S_Exists)
             begin
               state       <= Read_Inputs;
               nr_of_reads <= NUMBER_OF_INPUT_WORDS - 1;
+              
+              fft_start   <= 1; // asserted for one clock cycle
+              FSL_M_Data  <= 0;
+              
               sum         <= 0;
             end
+          end
 
-          Read_Inputs: 
-            if (FSL_S_Exists == 1) 
+          Read_Inputs: begin
+            fft_ce <= FSL_S_Exists; // only clock in data if we have data to clock in
+            fft_start <= 0;
+          
+            if (FSL_S_Exists) 
             begin
-              // Coprocessor function (Adding) happens here
-              sum         <= sum + FSL_S_Data;
+              fft_xn_re <= FSL_S_Data[0:15];
+              // fft_xn_im <= 0;    // inside a `define
+              
+              sum         <= sum + FSL_S_Data; // test
+              
               if (nr_of_reads == 0)
                 begin
-                  state        <= Write_Outputs;
+                  state        <= Busy;
                   nr_of_writes <= NUMBER_OF_OUTPUT_WORDS - 1;
                 end
               else
                 nr_of_reads <= nr_of_reads - 1;
             end
+          end
 
-          Write_Outputs: 
+          Busy: if (!fft_busy)  state <= Write_Outputs;
+
+          Write_Outputs: begin
+          
+            FSL_M_Data[0:15] <= fft_xk_re;
+            
             if (nr_of_writes == 0) 
               state <= Idle;
             else
               if (FSL_M_Full == 0)  nr_of_writes <= nr_of_writes - 1;
+          end
         endcase
    end
 

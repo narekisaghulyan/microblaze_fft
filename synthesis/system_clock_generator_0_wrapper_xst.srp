@@ -5,7 +5,7 @@ Parameter TMPDIR set to /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthe
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> 
 
@@ -36,7 +36,7 @@ Verilog Include Directory          : {"/home/cc/cs150/sp13/class/cs150-ac/microb
 
 ---- Target Parameters
 Target Device                      : xc5vlx110tff1136-1
-Output File Name                   : "../implementation/system_clock_generator_0_wrapper.ngc"
+Output File Name                   : "system_clock_generator_0_wrapper.ngc"
 
 ---- Source Options
 Top Module Name                    : system_clock_generator_0_wrapper
@@ -51,7 +51,7 @@ Optimization Effort                : 1
 Hierarchy Separator                : /
 
 ---- Other Options
-Cores Search Directories           : {../implementation}
+Cores Search Directories           : {./}
 
 =========================================================================
 
@@ -74,7 +74,7 @@ Entity <plle2_module> (Architecture <STRUCT>) compiled.
 Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd" in Library clock_generator_0_v4_03_a.
 Entity <clock_generator> compiled.
 Entity <clock_generator> (Architecture <STRUCTURE>) compiled.
-Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
+Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd" in Library work.
 Entity <system_clock_generator_0_wrapper> compiled.
 Entity <system_clock_generator_0_wrapper> (Architecture <STRUCTURE>) compiled.
 
@@ -279,7 +279,7 @@ Unit <clock_generator> synthesized.
 
 
 Synthesizing Unit <system_clock_generator_0_wrapper>.
-    Related source file is "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/system_clock_generator_0_wrapper.vhd".
+    Related source file is "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd".
 Unit <system_clock_generator_0_wrapper> synthesized.
 
 
@@ -332,7 +332,7 @@ Partition Implementation Status
 *                            Final Report                               *
 =========================================================================
 Final Results
-Top Level Output File Name         : ../implementation/system_clock_generator_0_wrapper.ngc
+Top Level Output File Name         : system_clock_generator_0_wrapper.ngc
 Output Format                      : ngc
 Optimization Goal                  : speed
 Keep Hierarchy                     : no
@@ -434,13 +434,13 @@ Delay:               0.238ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 19.71 secs
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 25.09 secs
  
 --> 
 
 
-Total memory usage is 683548 kilobytes
+Total memory usage is 683316 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   24 (   0 filtered)
