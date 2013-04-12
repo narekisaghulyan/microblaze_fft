@@ -1,0 +1,10 @@
+V3 7
+FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd 2013/04/11.18:43:16 P.15xf
+EN clock_generator_0_v4_03_a/clock_generator 1365720229 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 LB Unisim \
+      PH unisim/VCOMPONENTS 1335251629 LB clock_generator_v4_03_a
+AR clock_generator_0_v4_03_a/clock_generator/STRUCTURE 1365720230 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/hdl/elaborate/clock_generator_0_v4_03_a/hdl/vhdl/clock_generator.vhd \
+      EN clock_generator_0_v4_03_a/clock_generator 1365720229 CP pll_module \
+      CP BUFG

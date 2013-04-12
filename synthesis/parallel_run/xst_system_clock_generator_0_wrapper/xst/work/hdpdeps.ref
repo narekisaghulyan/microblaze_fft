@@ -1,0 +1,9 @@
+V3 7
+FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd 2013/04/11.18:43:18 P.15xf
+EN work/system_clock_generator_0_wrapper 1365720231 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd \
+      PB ieee/std_logic_1164 1335251622 LB UNISIM PH unisim/VCOMPONENTS 1335251629 \
+      LB clock_generator_0_v4_03_a LB clock_generator_v4_03_a
+AR work/system_clock_generator_0_wrapper/STRUCTURE 1365720232 \
+      FL /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_clock_generator_0_wrapper.vhd \
+      EN work/system_clock_generator_0_wrapper 1365720231 CP clock_generator

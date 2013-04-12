@@ -1,0 +1,457 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_fft_coprocessor_0_to_microblaze_0_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/" "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vlx110tff1136-1
+Output File Name                   : "system_fft_coprocessor_0_to_microblaze_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_fft_coprocessor_0_to_microblaze_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {./}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_srlfifo.vhd" in Library fsl_v20_v2_11_e.
+Entity <SRL_FIFO> compiled.
+Entity <SRL_FIFO> (Architecture <IMP>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_dpram.vhd" in Library fsl_v20_v2_11_e.
+Entity <Sync_DPRAM> compiled.
+Entity <Sync_DPRAM> (Architecture <syn>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_sync_bram.vhd" in Library fsl_v20_v2_11_e.
+Entity <Sync_BRAM> compiled.
+Entity <Sync_BRAM> (Architecture <syn>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/sync_fifo.vhd" in Library fsl_v20_v2_11_e.
+Entity <Sync_FIFO> compiled.
+Entity <Sync_FIFO> (Architecture <VHDL_RTL>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo.vhd" in Library fsl_v20_v2_11_e.
+Entity <Async_FIFO> compiled.
+Entity <Async_FIFO> (Architecture <VHDL_RTL>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/async_fifo_bram.vhd" in Library fsl_v20_v2_11_e.
+Entity <Async_FIFO_BRAM> compiled.
+Entity <Async_FIFO_BRAM> (Architecture <IMP>) compiled.
+Compiling vhdl file "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/fsl_v20.vhd" in Library fsl_v20_v2_11_e.
+Entity <fsl_v20> compiled.
+Entity <fsl_v20> (Architecture <IMP>) compiled.
+Compiling vhdl file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_fft_coprocessor_0_to_microblaze_0_wrapper.vhd" in Library work.
+Entity <system_fft_coprocessor_0_to_microblaze_0_wrapper> compiled.
+Entity <system_fft_coprocessor_0_to_microblaze_0_wrapper> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <system_fft_coprocessor_0_to_microblaze_0_wrapper> in library <work> (architecture <STRUCTURE>).
+
+Analyzing hierarchy for entity <fsl_v20> in library <fsl_v20_v2_11_e> (architecture <IMP>) with generics.
+	C_ASYNC_CLKS = 0
+	C_EXT_RESET_HIGH = 1
+	C_FSL_DEPTH = 16
+	C_FSL_DWIDTH = 32
+	C_IMPL_STYLE = 0
+	C_READ_CLOCK_PERIOD = 0
+	C_USE_CONTROL = 1
+
+Analyzing hierarchy for entity <Sync_FIFO> in library <fsl_v20_v2_11_e> (architecture <VHDL_RTL>) with generics.
+	C_IMPL_STYLE = 0
+	MemSize = 16
+	WordSize = 33
+
+Analyzing hierarchy for entity <SRL_FIFO> in library <fsl_v20_v2_11_e> (architecture <IMP>) with generics.
+	C_DATA_BITS = 33
+	C_DEPTH = 16
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system_fft_coprocessor_0_to_microblaze_0_wrapper> in library <work> (Architecture <STRUCTURE>).
+Entity <system_fft_coprocessor_0_to_microblaze_0_wrapper> analyzed. Unit <system_fft_coprocessor_0_to_microblaze_0_wrapper> generated.
+
+Analyzing generic Entity <fsl_v20> in library <fsl_v20_v2_11_e> (Architecture <IMP>).
+	C_ASYNC_CLKS = 0
+	C_EXT_RESET_HIGH = 1
+	C_FSL_DEPTH = 16
+	C_FSL_DWIDTH = 32
+	C_IMPL_STYLE = 0
+	C_READ_CLOCK_PERIOD = 0
+	C_USE_CONTROL = 1
+    Set user-defined property "INIT =  FFFF" for instance <POR_SRL_I> in unit <fsl_v20>.
+    Set user-defined property "INIT =  1" for instance <POR_FF_I> in unit <fsl_v20>.
+Entity <fsl_v20> analyzed. Unit <fsl_v20> generated.
+
+Analyzing generic Entity <Sync_FIFO> in library <fsl_v20_v2_11_e> (Architecture <VHDL_RTL>).
+	C_IMPL_STYLE = 0
+	MemSize = 16
+	WordSize = 33
+Entity <Sync_FIFO> analyzed. Unit <Sync_FIFO> generated.
+
+Analyzing generic Entity <SRL_FIFO> in library <fsl_v20_v2_11_e> (Architecture <IMP>).
+	C_DATA_BITS = 33
+	C_DEPTH = 16
+    Set user-defined property "INIT =  0" for instance <FDRE_I1> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0" for instance <Addr_Counters[0].FDRE_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0" for instance <Addr_Counters[1].FDRE_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0" for instance <Addr_Counters[2].FDRE_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0" for instance <Addr_Counters[3].FDRE_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[0].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[1].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[2].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[3].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[4].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[5].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[6].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[7].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[8].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[9].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[10].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[11].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[12].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[13].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[14].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[15].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[16].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[17].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[18].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[19].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[20].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[21].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[22].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[23].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[24].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[25].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[26].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[27].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[28].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[29].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[30].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[31].SRL16E_I> in unit <SRL_FIFO>.
+    Set user-defined property "INIT =  0000" for instance <FIFO_RAM[32].SRL16E_I> in unit <SRL_FIFO>.
+Entity <SRL_FIFO> analyzed. Unit <SRL_FIFO> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SRL_FIFO>.
+    Related source file is "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/gen_srlfifo.vhd".
+    Found 1-bit register for signal <data_Exists_I>.
+    Found 1-bit xor2 for signal <hsum_A_0$xor0000> created at line 176.
+    Found 1-bit xor2 for signal <hsum_A_1$xor0000> created at line 176.
+    Found 1-bit xor2 for signal <hsum_A_2$xor0000> created at line 176.
+    Found 1-bit xor2 for signal <hsum_A_3$xor0000> created at line 176.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <SRL_FIFO> synthesized.
+
+
+Synthesizing Unit <Sync_FIFO>.
+    Related source file is "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/sync_fifo.vhd".
+WARNING:Xst:1780 - Signal <read_bram_enable> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Write_Address> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <Read_Address> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DataOut_BRAM> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Sync_FIFO> synthesized.
+
+
+Synthesizing Unit <fsl_v20>.
+    Related source file is "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/fsl_v20_v2_11_e/hdl/vhdl/fsl_v20.vhd".
+WARNING:Xst:647 - Input <FSL_M_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FSL_S_Clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <fsl_v20> synthesized.
+
+
+Synthesizing Unit <system_fft_coprocessor_0_to_microblaze_0_wrapper>.
+    Related source file is "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/parallel_run/hdl/system_fft_coprocessor_0_to_microblaze_0_wrapper.vhd".
+Unit <system_fft_coprocessor_0_to_microblaze_0_wrapper> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_fft_coprocessor_0_to_microblaze_0_wrapper> ...
+
+Optimizing unit <SRL_FIFO> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : system_fft_coprocessor_0_to_microblaze_0_wrapper.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 78
+
+Cell Usage :
+# BELS                             : 19
+#      GND                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 2
+#      LUT4                        : 1
+#      LUT6                        : 5
+#      MUXCY_L                     : 3
+#      VCC                         : 1
+#      XORCY                       : 4
+# FlipFlops/Latches                : 7
+#      FDR                         : 1
+#      FDRE                        : 5
+#      FDS                         : 1
+# Shift Registers                  : 34
+#      SRL16                       : 1
+#      SRL16E                      : 33
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               7  out of  69120     0%  
+ Number of Slice LUTs:                   44  out of  69120     0%  
+    Number used as Logic:                10  out of  69120     0%  
+    Number used as Memory:               34  out of  17920     0%  
+       Number used as SRL:               34
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     44
+   Number with an unused Flip Flop:      37  out of     44    84%  
+   Number with an unused LUT:             0  out of     44     0%  
+   Number of fully used LUT-FF pairs:     7  out of     44    15%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          78
+ Number of bonded IOBs:                   0  out of    640     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                           | Load  |
+-----------------------------------+-------------------------------------------------+-------+
+FSL_Clk                            | NONE(fft_coprocessor_0_to_microblaze_0/POR_FF_I)| 41    |
+-----------------------------------+-------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.020ns (Maximum Frequency: 331.081MHz)
+   Minimum input arrival time before clock: 2.365ns
+   Maximum output required time after clock: 2.559ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FSL_Clk'
+  Clock period: 3.020ns (frequency: 331.081MHz)
+  Total number of paths / destination ports: 283 / 183
+-------------------------------------------------------------------------
+Delay:               3.020ns (Levels of Logic = 4)
+  Source:            fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[3].FDRE_I (FF)
+  Destination:       fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1 (FF)
+  Source Clock:      FSL_Clk rising
+  Destination Clock: FSL_Clk rising
+
+  Data Path: fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[3].FDRE_I to fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            38   0.471   0.917  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[3].FDRE_I (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr<3>)
+     LUT6:I2->O            1   0.094   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/hsum_A_0_and00001 (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/hsum_A<0>)
+     MUXCY_L:S->LO         1   0.372   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[0].Used_MuxCY.MUXCY_L_I (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/addr_cy<1>)
+     XORCY:CI->O           2   0.357   0.715  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[1].XORCY_I (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/sum_A<1>)
+     LUT4:I1->O            1   0.094   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/buffer_full_early_cmp_eq00001 (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/buffer_full_early)
+     FDRE:D                   -0.018          fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1
+    ----------------------------------------
+    Total                      3.020ns (1.388ns logic, 1.632ns route)
+                                       (46.0% logic, 54.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 158 / 73
+-------------------------------------------------------------------------
+Offset:              2.365ns (Levels of Logic = 4)
+  Source:            FSL_M_Write (PAD)
+  Destination:       fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1 (FF)
+  Destination Clock: FSL_Clk rising
+
+  Data Path: FSL_M_Write to fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            1   0.094   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/hsum_A_0_and00001 (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/hsum_A<0>)
+     MUXCY_L:S->LO         1   0.372   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[0].Used_MuxCY.MUXCY_L_I (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/addr_cy<1>)
+     XORCY:CI->O           2   0.357   0.715  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/Addr_Counters[1].XORCY_I (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/sum_A<1>)
+     LUT4:I1->O            1   0.094   0.000  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/buffer_full_early_cmp_eq00001 (fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/buffer_full_early)
+     FDRE:D                   -0.018          fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FDRE_I1
+    ----------------------------------------
+    Total                      2.365ns (1.650ns logic, 0.715ns route)
+                                       (69.8% logic, 30.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FSL_Clk'
+  Total number of paths / destination ports: 41 / 39
+-------------------------------------------------------------------------
+Offset:              2.559ns (Levels of Logic = 1)
+  Source:            fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FIFO_RAM[32].SRL16E_I (FF)
+  Destination:       FSL_Control_IRQ (PAD)
+  Source Clock:      FSL_Clk rising
+
+  Data Path: fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FIFO_RAM[32].SRL16E_I to FSL_Control_IRQ
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16E:CLK->Q         1   1.889   0.576  fft_coprocessor_0_to_microblaze_0/Using_FIFO.Sync_FIFO_Gen.Use_Control.Sync_FIFO_I1/Sync_FIFO_I.srl_fifo_i.FSL_FIFO/FIFO_RAM[32].SRL16E_I (FSL_S_Control)
+     LUT2:I0->O            0   0.094   0.000  fft_coprocessor_0_to_microblaze_0/FSL_Control_IRQ1 (FSL_Control_IRQ)
+    ----------------------------------------
+    Total                      2.559ns (1.983ns logic, 0.576ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.02 secs
+ 
+--> 
+
+
+Total memory usage is 684092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,82 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_fft_coprocessor_0_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/" "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vlx110tff1136-1
+Output File Name                   : "system_fft_coprocessor_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_fft_coprocessor_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {./}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/hdl/verilog/fft_coprocessor.v" in library fft_coprocessor_v1_00_a
+Module <fft_coprocessor> compiled
+Compiling verilog file "../hdl/system_fft_coprocessor_0_wrapper.v" in library work
+Module <system_fft_coprocessor_0_wrapper> compiled
+No errors in compilation
+Analysis of file <"system_fft_coprocessor_0_wrapper_xst.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+ERROR:HDLCompilers:87 - "/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/pcores/fft_coprocessor_v1_00_a/hdl/verilog/fft_coprocessor.v" line 183 Could not find module/primitive 'xfft_v7_1'
+--> 
+
+
+Total memory usage is 624364 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
