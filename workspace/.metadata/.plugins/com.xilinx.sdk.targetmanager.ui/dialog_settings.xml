@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/workspace/fft_test_0/Debug/fft_test_0.elf" key="microblaze_fft_hw_platform-microblaze_0-initElf"/>
+	<item value="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/workspace/fft_test_0/Release/fft_test_0.elf" key="microblaze_fft_hw_platform-microblaze_0-initElf"/>
 	<item value="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/workspace/microblaze_fft_hw_platform/system_bd.bmm" key="microblaze_fft_hw_platform-bmmFile"/>
 	<item value="/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/workspace/microblaze_fft_hw_platform/system.bit" key="microblaze_fft_hw_platform-bitFile"/>
 </section>

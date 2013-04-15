@@ -15958,3 +15958,50 @@ Done writing filter settings to:
 	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.filters
 Done writing Tab View settings to:
 	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.1 Build EDK_P.15xf
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Sun Apr 14 14:07:11 2013
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+Overriding Xilinx file <TextEditor.cfg> with local file </opt/Xilinx/14.1/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.filters
+Done writing Tab View settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.1 Build EDK_P.15xf
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Sun Apr 14 18:46:26 2013
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.filters
+Done writing Tab View settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.1 Build EDK_P.15xf
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+
+********************************************************************************
+At Local date and time: Sun Apr 14 15:49:16 2013
+ make -f system.make exporttosdk started...
+make: Nothing to be done for `exporttosdk'.
+Done!
+Overriding Xilinx file <TextEditor.cfg> with local file </opt/Xilinx/14.1/ISE_DS/EDK/data/TextEditor.cfg>
+Writing filter settings....
+Done writing filter settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.filters
+Done writing Tab View settings to:
+	/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/etc/system.gui

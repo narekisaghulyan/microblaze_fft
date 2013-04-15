@@ -1,5 +1,8 @@
-#Tue Apr 09 18:30:11 PDT 2013
+#Sun Apr 14 14:41:57 EDT 2013
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
+spelling_user_dictionary=/home/cc/cs150/sp13/class/cs150-ac/microblaze_fft/dictionary.txt
 eclipse.preferences.version=1
+spelling_ignore_mixed=true
+spelling_user_dictionary_encoding=
 useQuickDiffPrefPage=true

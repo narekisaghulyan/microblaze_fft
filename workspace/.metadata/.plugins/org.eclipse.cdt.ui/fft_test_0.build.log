@@ -1,21 +1,25 @@
 
-**** Build of configuration Debug for project fft_test_0 ****
+**** Build of configuration Release for project fft_test_0 ****
 
 make all 
 Building file: ../src/fft_test0.c
 Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../fft_test_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -MMD -MP -MF"src/fft_test0.d" -MT"src/fft_test0.d" -o"src/fft_test0.o" "../src/fft_test0.c"
+mb-gcc -Wall -O3 -c -fmessage-length=0 -I../../fft_test_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -MMD -MP -MF"src/fft_test0.d" -MT"src/fft_test0.d" -o"src/fft_test0.o" "../src/fft_test0.c"
+../src/fft_test0.c: In function ‘parseNum’:
+../src/fft_test0.c:130:2: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+../src/fft_test0.c:131:2: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+../src/fft_test0.c:132:3: warning: array subscript has type ‘char’ [-Wchar-subscripts]
 Finished building: ../src/fft_test0.c
  
 Building target: fft_test_0.elf
 Invoking: MicroBlaze gcc linker
-mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -L../../fft_test_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -o"fft_test_0.elf"  ./src/fft_test0.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../fft_test_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -o"fft_test_0.elf"  ./src/fft_test0.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 Finished building target: fft_test_0.elf
  
 Invoking: MicroBlaze Print Size
 mb-size fft_test_0.elf  |tee "fft_test_0.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   2714	    292	   2098	   5104	   13f0	fft_test_0.elf
+  16140	   1336	   2156	  19632	   4cb0	fft_test_0.elf
 Finished building: fft_test_0.elf.size
  
 Invoking: Xilinx ELF Check

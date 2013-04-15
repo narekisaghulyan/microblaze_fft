@@ -1,0 +1,177 @@
+/*
+ * Copyright (c) 2009 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+/*
+ * helloworld.c: simple test application
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include "platform.h"
+
+void print(char *str);
+void xil_printf(char *str, ...);
+
+void fftREPL();
+void parseREPL();
+void echoREPL();
+int parseNum();
+int parseInputs(u32 *);
+#define REPL_SUCCESS -1
+void printOutputs();
+
+#define ECHO_ONLY
+//#define REPL_ONLY
+
+#define BUF_SIZE 4
+
+
+int main()
+{
+    init_platform();
+
+    print("\r\nFFT Test 0\r\n");
+
+//    echoREPL();
+    fftREPL();
+//    parseREPL();
+
+    cleanup_platform();
+
+    return 0;
+}
+
+/*
+ * Gets and prints the inputted character.
+ */
+#define gpchar(c) { \
+	while( !(c=getchar()) ); \
+	xil_printf("%c",c); \
+	if (c=='\r') print("\n"); \
+	}
+
+/*
+ * Passes stdin to stdout.
+ */
+void echoREPL()
+{
+	char c;
+	while(1) gpchar(c);
+}
+
+/*
+ * Read-eval-print loop. This reads the inputs, pushes it to the FFT, and
+ * prints the output.
+ */
+void fftREPL()
+{
+    u32 buffer[128];
+    int success,k;
+    k=0;
+
+    while(1) {
+    	xil_printf("%d: Please input " stringify(BUF_SIZE) " samples:\r\n", k++);
+
+		success = parseInputs(buffer);
+		if (success != REPL_SUCCESS) {
+			xil_printf("\r\n#### Parse failed at line %d. ####\r\n", success);
+			continue;
+		}
+
+		fft_coprocessor(buffer, buffer); // overwrite inputs with outputs
+
+		print("#### Processing... ####\r\n");
+		printOutputs(buffer);
+		print("#### DONE ####\r\n");
+
+    }
+}
+
+void parseREPL()
+{
+	int i;
+	u32 buffer[BUF_SIZE];
+
+	while(1) {
+		print("Please input " stringify(BUF_SIZE) " numbers: \r\n");
+		for (i=0; i<BUF_SIZE; i++) {
+			print(">> ");
+			buffer[i] = parseNum();
+		}
+		printOutputs(buffer);
+	}
+}
+/*
+ * Gobbles a string with a number and returns an int. returns -1 on fail.
+ */
+int parseNum()
+{
+	int d = 0;
+	char c;
+	gpchar(c);
+	if (!isdigit(c)) return -1;
+	while (isdigit(c)) {
+		if (isdigit(c)) d = d*10 + (c-'0');
+		do {
+			gpchar(c);
+		} while(!c) ;
+	}
+	return d;
+}
+
+/*
+ * Eats one CR. Echoes its input.
+ * Returns whether it saw a CR.
+ */
+char gobbleCR()
+{
+	char c;
+	gpchar(c);
+	return c=='\r';
+}
+
+/*
+ * Reads decimal numbers from stdin and puts them into an array.
+ * One number per line, separated by any number of \n or \r.
+ * @param(inputs) is a pointer to an array of u32's where we will dump the parsed numbers.
+ * @returns whether 1024 numbers were parsed correctly.
+ */
+int parseInputs(u32 *inputs)
+{
+	int i;
+	for (i = 0; i < BUF_SIZE; i++)
+	{
+		inputs[i] = parseNum();
+		if (inputs[i] == -1) return i;
+	}
+
+	return REPL_SUCCESS;
+}
+
+/*
+ * Prints the decimal numbers in input to stdout, one number per line.
+ */
+void printOutputs(u32 *outputs)
+{
+	int i;
+	for (i=0; i < BUF_SIZE; i++)
+	{
+		xil_printf("%d\r\n", outputs[i]);
+	}
+}

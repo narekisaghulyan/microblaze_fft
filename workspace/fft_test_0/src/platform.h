@@ -20,6 +20,7 @@
 #define __PLATFORM_H_
 
 #include "platform_config.h"
+#include "fft_coprocessor.h"
 
 void init_platform();
 void cleanup_platform();
